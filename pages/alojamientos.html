@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetSpot - Alojamientos</title>
+  <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <!-- Acá empieza el header -->
+
+  <header>
+
+    <!-- Banner con logo y botones de perfil y contacto -->
+
+
+    <div class="banner">
+
+      <div class="banner__logo">
+        <a href="../index.html"><img class="logo__2" src="../images/logo2.png" alt="Logo" /></a>
+
+        <div class="banner__logo__h">
+
+          <h1>Pet Spot</h1>
+          <h3>Guía Petfriendly</h3>
+
+        </div>
+
+        <div class="banner__right">
+          <a href="../pages/miperfil.html"><img src="../images/icono-perfil.png" alt="mi perfil"
+              class="banner__right__items" /></a>
+          <a href="../pages/contacto.html"><button type="button">Contacto</button class="banner__right__items"></a>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+    <!--Acá empieza el nav bar-->
+
+    <nav class="nav">
+      
+      <div>
+
+        <div class="nav__div">
+          <ul class="nav__menu">
+
+            <li><a href="../index.html"><img src="../images/icono-home.png" alt="inicio" class="icon" />Inicio</a></li>
+            <li><a href="../pages/alojamientos.html"><img src="../images/icono-hotel.png" alt="hotel"
+                  class="icon" />Alojamientos</a></li>
+            <li><a href="../pages/gastronomia.html"> <img src="../images/icono-restaurante.png" alt="restaurante"
+                  class="icon" />Gastronomia</a></li>
+            <li><a href="../pages/actividades.html"><img src="../images/icono-actividades.png" alt="actividades"
+                  class="icon" />Actividades</a></li>
+            <li><a href="../pages/blog.html"><img src="../images/icono-blog.png" alt="blog" class="icon" />Blog</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+  <main>
+
+    <section class="selection">
+      <h2 class="reco__h2">Alojamientos</h2>
+      <p id="selection_p">Ajusta tu busqueda</p>
+
+      <div class="selectors">
+
+        <div>
+          <select required>
+            <option>Buenos Aires</option>
+            <option>Cordoba</option>
+            <option>Mendoza</option>
+            <option>Santa Fe</option>
+          </select>
+        </div>
+
+        <div>
+          <select disabled>
+            <option value="capital">Localidad</option>
+          </select>
+        </div>
+
+        <div>
+          <select disabled>
+            <option value="capital">Barrio</option>
+          </select>
+        </div>
+
+        <div>
+          <label for=""> Más de una mascota por habitación</label>
+          <input type="checkbox">
+
+        </div>
+
+
+        <input type="submit" value="Buscar!">
+
+
+      </div>
+
+    </section>
+
+
+    <hr>
+
+
+    <section>
+
+      <!--Hotel y descripcion-->
+      <div class="reco__title">
+        <h2 class="reco__h2">Recomendado</h2>
+        <h4>Hotel Hilton Buenos Aires</h4>
+      </div>
+
+      <div class="reco">
+        
+        <img id="img_hotel" src="../images/hotel.jpg" alt="hotel" title="una habitacion de hotel" />
+        <p class="reco__descr">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus molestias voluptatum porro ipsam
+          excepturi, numquam aperiam magni a consectetur ullam corrupti deserunt ipsa accusamus est, quaerat ipsum natus
+          nulla quis!
+          Repudiandae sint maxime quidem error distinctio consequatur. Delectus, quaerat labore harum nisi provident
+          culpa sapiente optio quasi neque soluta odio ducimus dicta modi autem sunt vero? Quidem quia hic ut.
+          Quas consectetur, repudiandae voluptatem nulla, porro ipsa repellat, corporis vel dicta esse quam harum
+          accusamus. Est neque architecto quam quae sequi illo nemo, temporibus odio eaque eius. Quos, molestias maxime.
+          Suscipit ipsa ratione deleniti cum odit quia consequuntur debitis non? Eveniet, harum nam deserunt assumenda
+          neque accusantium. Omnis dicta delectus quas recusandae facere odit necessitatibus adipisci ex aut iure! In!
+          Vel illum aliquam aperiam doloribus incidunt, sint, harum eveniet iste non minima mollitia, quidem unde
+          voluptatem eius. Blanditiis, omnis velit obcaecati architecto illum fugit rem similique sit quo dolores
+          veniam.
+        </p>
+
+      </div>
+
+      <!--Seccion de mapa y comentarios-->
+     
+      <p class="comment_title">Comentarios</p>
+
+      <div class="comments_section">
+        <div class="comments">
+
+          <img src="../images/icono-perfil.png" alt="foto de Perfil">
+          <p class="comments_name">Firulais</p>
+          <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto iure
+            perferendis
+            repudiandae
+            nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
+            enim!
+          </p>
+
+          <img src="../images/icono-perfil.png" alt="foto de Perfil">
+          <p class="comments_name">Doggy</p>
+          <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto iure
+            perferendis
+            repudiandae
+            nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
+            enim!
+          </p>
+          <img src="../images/icono-perfil.png" alt="foto de Perfil">
+          <p class="comments_name">Katniss</p>
+          <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto iure
+            perferendis
+            repudiandae
+            nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
+            enim!
+          </p>
+          <img src="../images/icono-perfil.png" alt="foto de Perfil">
+          <p class="comments_name">India</p>
+          <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto iure
+            perferendis
+            repudiandae
+            nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
+            enim!
+          </p>
+
+        </div>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52546.023190111635!2d-58.455015485977036!3d-34.60096387160797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335ef4809ceef%3A0x3945c8c351477a54!2sHotel%20Hilton%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1662132967331!5m2!1ses-419!2sar"
+          style="border:0;" allowfullscreen="" width="800"></iframe>
+
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!--Aca empieza el footer-->
+
+  <footer>
+    
+    <div>
+      <ul class="footer__links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../pages/alojamientos.html">Alojamientos</a></li>
+        <li><a href="../pages/gastronomia.html">Gastronomia</a></li>
+        <li><a href="../pages/actividades.html">Actividades</a></li>
+        <li><a href="../pages/blog.html">Blog</a></li>
+        <li><a href="../pages/contacto.html">Contacto</a></li>
+        <li><a href="../pages/miperfil.html">Mi Perfil</a></li>
+      </ul>
+    </div>
+
+    <img src="../images/logo1.png" alt="logo 1" class="logo__1">
+
+    <!--Enlaces a Redes Sociales-->
+
+    <div class="footer__social">
+
+      <p class="footer__title">Encontranos en</p>
+
+      <ul class="footer__icons">
+
+        <li><a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png"
+              alt="facebook icon" /></a>
+        </li>
+        <li><a href="https://www.instagram.com" target="_blank"><img src="../images/instagram.png"
+              alt="facebook icon" /></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><img src="../images/youtube.png"
+              alt="facebook icon" /></a>
+        </li>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </footer>
+</body>
+
+</html>

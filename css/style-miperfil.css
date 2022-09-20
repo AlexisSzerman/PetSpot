@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+body {
+  background-image: url(../images/background.png);
+
+}
+
+/*Banner superior con logo y botones de perfil y contacto*/
+
+.logo__2 {
+  width: 50px;
+}
+
+
+.banner {
+  background-color: #e9c46aff;
+  color: #264653ff;
+  padding: 10px 0 10px 0;
+}
+
+.banner__logo {
+  margin-left: 20px;
+
+}
+
+.banner__logo__h {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.banner__right {
+  display: inline-block;
+  margin-left: 75%;
+}
+
+.banner__right__items {
+  display: block;
+}
+
+
+/*Nav Bar*/
+
+.nav a {
+  width: 100%;
+  color: #e9c46aff;
+}
+
+
+.nav__menu {
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #264653ff;
+}
+
+
+.icon {
+  width: 25px;
+}
+
+/*Main - Creacion de Perfil*/
+
+
+h2 {
+  padding: 15px;
+  color: #264653ff;
+}
+
+.title {
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+input {
+  width: 300px;
+}
+
+.form_p {
+  padding: 10px 0 10px 0;
+  font-size: 20px;
+  color: #fe3434ff;
+}
+
+
+textarea {
+  margin: 10px 0 10px 0;
+}
+
+
+/* Footer*/
+
+
+.logo__1 {
+  width: 45px;
+}
+
+
+footer {
+  padding: 15px;
+  background-color: #e9c46aff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.form_port {
+  width: 20%;
+}
+
+.footer__title {
+  font-size: 16px;
+  color: #264653ff;
+}
+
+.footer__links a {
+  text-decoration: none;
+  color: #264653ff;
+
+}
+
+
+.footer__icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
