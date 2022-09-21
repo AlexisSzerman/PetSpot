@@ -14,7 +14,6 @@ a {
 
 body {
   background-image: url(../images/background.png);
-
 }
 
 /*Banner superior con logo y botones de perfil y contacto*/
@@ -22,7 +21,6 @@ body {
 .logo__2 {
   width: 50px;
 }
-
 
 .banner {
   background-color: #e9c46aff;
@@ -48,7 +46,6 @@ body {
 .banner__right__items {
   display: block;
 }
-
 
 /*Nav Bar*/
 
@@ -77,8 +74,6 @@ video {
   padding: 50px;
   width: 60%;
 }
-
-/* Buscador Index*/
 
 .searchbar {
   padding: 80px;
@@ -110,13 +105,13 @@ span {
 }
 
 
-/*Area de recomendaciones del Index*/
+/*Area de recomendaciones Index*/
 
 .reco__h2__index {
   margin-left: 15px;
   padding-bottom: 15px;
   color: #264653ff;
-} 
+}
 
 .reco__index {
   list-style: none;
@@ -143,12 +138,11 @@ span {
   color: #264653ff;
 }
 
-/*Main*/
+/*Mains*/
 
 .selection {
   padding: 15px;
 }
-
 
 .reco__h2 {
   padding: 20px 0 20px 0;
@@ -167,17 +161,16 @@ select {
   width: 250px;
 }
 
- label {
+label {
   font-size: 16px;
   color: #264653ff;
- }
- 
+}
 
- #selection_p {
+#selection_p {
   font-size: 20px;
   color: #fe3434ff;
   font-style: italic;
- }
+}
 
 /* Recomendados*/
 
@@ -186,7 +179,6 @@ select {
   margin: 10px;
   padding: 0 10px 0 10px;
   gap: 10px;
-  
 }
 
 #img_hotel {
@@ -196,13 +188,13 @@ select {
 h4 {
   font-size: 20px;
   color: #fe3434ff;
-} 
+}
 
- .reco__title {
+.reco__title {
   margin-left: 20px;
 }
 
- .reco__descr {
+.reco__descr {
   padding-right: 50px;
   margin-left: 20px;
   font-size: 18px;
@@ -222,18 +214,18 @@ h4 {
 
 .comments_section {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   padding: 20px;
-} 
+}
 
 .comments {
   font-size: 16px;
   color: #264653ff;
-  text-align: justify; 
-} 
+  text-align: justify;
+}
 
 .comments_name {
-  font-size: 16px ;
+  font-size: 16px;
   font-weight: bold;
   color: #fe3434ff;
 }
@@ -243,13 +235,11 @@ iframe {
   padding: 10px;
 }
 
-
 .comment_p {
   width: 90%;
 }
 
 /*Blog Articulos*/
-
 
 .blog_images {
   width: 100%;
@@ -291,7 +281,6 @@ figcaption {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
   padding: 50px;
-
 }
 
 .discount {
@@ -299,13 +288,12 @@ figcaption {
   align-items: center;
 }
 
-
 .discount_images {
   width: 30%;
 }
 
 
-/* Formulario de contacto */
+/* Formulario de Contacto */
 
 .title {
   padding: 20px;
@@ -343,10 +331,6 @@ textarea {
   width: 20%;
 }
 
-
-
-
-
 /* Footer*/
 
 
@@ -361,9 +345,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
-
 
 .footer__title {
   font-size: 16px;
@@ -375,7 +357,6 @@ footer {
   color: #264653ff;
 
 }
-
 
 .footer__icons {
   list-style: none;
