@@ -96,7 +96,7 @@ video {
   margin-bottom: 10px;
 }
 
-span, h4 {
+span {
   color: #fe3434ff;
 }
 
@@ -118,7 +118,7 @@ span, h4 {
   color: #264653ff;
 } 
 
-.reco {
+.reco__index {
   list-style: none;
   display: flex;
   padding: 15px;
@@ -137,7 +137,7 @@ span, h4 {
   margin-bottom: 10px;
 }
 
-.reco__descr {
+.reco__descr__index {
   font-size: 16px;
   font-style: italic;
   color: #264653ff;
@@ -176,9 +176,10 @@ select {
  #selection_p {
   font-size: 20px;
   color: #fe3434ff;
+  font-style: italic;
  }
 
-/* Recomendado Alojamientos*/
+/* Recomendados*/
 
 .reco {
   display: flex;
@@ -195,13 +196,13 @@ select {
 h4 {
   font-size: 20px;
   color: #fe3434ff;
-}
+} 
 
  .reco__title {
   margin-left: 20px;
 }
 
- .reco__descr__aloj {
+ .reco__descr {
   padding-right: 50px;
   margin-left: 20px;
   font-size: 18px;
@@ -282,7 +283,7 @@ figcaption {
   color: #264653ff;
 }
 
-/*Aside con descuentos*/
+/*Aside con descuentos Blog*/
 
 .discounts {
 
@@ -304,6 +305,43 @@ figcaption {
 }
 
 
+/* Formulario de contacto */
+
+.title {
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+input {
+  width: 300px;
+}
+
+.form_p {
+  padding: 10px 0 10px 0;
+  font-size: 20px;
+  color: #fe3434ff;
+}
+
+#form_btn {
+  width: 150px;
+}
+
+textarea {
+  margin: 10px 0 10px 0;
+}
+
+
+/*Main - Creacion de Perfil*/
+
+.form_port {
+  width: 20%;
+}
 
 
 
