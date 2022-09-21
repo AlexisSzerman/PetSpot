@@ -122,12 +122,10 @@ span, h4 {
   list-style: none;
   display: flex;
   padding: 15px;
-
 }
 
 .reco__card {
   padding: 10px;
-
 }
 
 .reco__image {
@@ -199,11 +197,12 @@ h4 {
   color: #fe3434ff;
 }
 
-.reco__title {
+ .reco__title__aloj, .reco__title__gastr {
   margin-left: 20px;
 }
+ 
 
- .reco__descr {
+ .reco__descr__aloj {
   padding-right: 50px;
   margin-left: 20px;
   font-size: 18px;
@@ -242,7 +241,6 @@ h4 {
 iframe {
   margin: 10px;
   padding: 10px;
-  
 }
 
 
