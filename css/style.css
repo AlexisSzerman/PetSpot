@@ -23,30 +23,34 @@ body {
   width: 50px;
 } */
 
-.banner {
+.header {
   background-color: #e9c46aff;
   color: #264653ff;
-  padding: 10px 0 10px 0;
-}
-
-.banner__logo {
-  margin-left: 20px;
 
 }
 
-.banner__logo__h {
-  display: inline-block;
-  margin-left: 5px;
-}
-
-.banner__right {
-  display: inline-block;
+.header-h1 {
+font-weight: 500;
+font-size: 2rem;
+font-weight: bolder;
 
 }
 
-.banner__right__items {
-  display: block;
+.header-h3{
+font-weight: 400;
+font-size: 1.5rem;
+font-style:italic;
 }
+
+.btn1 {
+  font-family: Roboto;
+  color: #e9c46aff;
+  background-color:#264653ff;
+  border-radius: 0.375rem;
+}
+
+
+
 
 /*Nav Bar*/
 
