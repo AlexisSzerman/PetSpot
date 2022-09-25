@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Alex Szerman</h1>
-<h3 align="center">A graphic designer and future fullstack developer from Argentina</h3>
+<h3 align="center">A graphic designer and future (hopefully) fullstack developer from Argentina</h3>
 
-<h4 align="left">I'm working on the PetSpot proyect, a website where you can find petfriendly spots to visit. Includes places to eat, hotels and activities!</h4>
+<h4 align="left">I'm working on my PetSpot proyect, a virtual guide where you can find petfriendly spots to visit, and be informed with related stuff about our beloved pets. The guide includes places to eat, hotels and activities so check it out!</h4>
 <p align="left">
 </p>
 
