@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
   font-family: "Roboto", sans-serif;
   list-style: none;
- }
+  
+}
+
 
 a {
   text-decoration: none;
   font-weight: 500;
 }
+
 
 body {
   background-image: url(../images/background.png);
@@ -18,9 +19,9 @@ body {
 
 /*Banner superior con logo y botones de perfil y contacto*/
 
-.logo__2 {
+/* .logo__2 {
   width: 50px;
-}
+} */
 
 .banner {
   background-color: #e9c46aff;
@@ -40,7 +41,7 @@ body {
 
 .banner__right {
   display: inline-block;
-  margin-left: 75%;
+
 }
 
 .banner__right__items {
@@ -49,37 +50,40 @@ body {
 
 /*Nav Bar*/
 
-
 .navbar .navbar-nav .nav-link:hover {
   background-color: #e9c46aff;
   color: #fe3434ff;
-}  
-.navbar .navbar-nav .nav-link {
-padding: 0.6em;
-font-size: 1.2em;
-transition: all 0.5s;
 }
+
+.navbar .navbar-nav .nav-link {
+  padding: 0.6em;
+  font-size: 1.2em;
+  transition: all 0.5s;
+}
+
 .navbar .navbar-brand {
-padding: 0 0.6em;
-font-size: 1.5em;
-font-weight: bold;
+  padding: 0 0.6em;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 992px) {
-.navbar {
-  padding: 0;
-}
-.navbar .navbar-nav .nav-link {
-  padding: 1em 0.7em;
-}
-.navbar .navbar-brand {
-  padding: 0 0.8em;
-}
-}
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 0.5em 4em;
+  }
+
+  .navbar .navbar-brand {
+    padding: 0 0.8em;
+  }
+} 
 
 .navbarcolor {
   background-color: #264653ff;
-  
+
 }
 
 .navbar-nav .nav-link.active {
@@ -88,30 +92,9 @@ font-weight: bold;
 
 .navbarfontcolor {
   color: #e9c46aff;
-} 
-
-
-
-
-
-/* .nav a {
-  width: 100%;
-  color: #e9c46aff;
 }
 
-.nav__menu {
 
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  background-color: #264653ff;
-}
-
-.icon {
-  width: 25px;
-}
-
- */
 
 /*Main Index*/
 
