@@ -1,9 +1,11 @@
+/*Fuentes Google*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap");
+/*Iconos Bootstrap*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
 * {
   font-family: "Roboto", sans-serif;
-  list-style: none;
-  
+  list-style: none; 
 }
 
 
@@ -22,20 +24,27 @@ body {
 .header {
   background-color: #e9c46aff;
   color: #264653ff;
-
 }
+
+.brand {
+  margin-top: 1.5rem;
+  margin-left: -1.5rem;
+}
+
+
 
 .header-h1 {
 font-weight: 500;
 font-size: 2rem;
 font-weight: bolder;
-
+margin: 0;
 }
 
 .header-h3{
 font-weight: 400;
 font-size: 1.5rem;
 font-style:italic;
+margin: 0;
 }
 
 .btn1 {
@@ -145,37 +154,29 @@ padding: 0.3rem;
 
 /*Area de recomendaciones Index*/
 
-.reco__h2__index {
-  margin-left: 15px;
-  padding-bottom: 15px;
+.reco-h2 {
+  font-size: 2rem;
+  color: #264653ff;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.star {
   color: #264653ff;
 }
 
-.reco__index {
-  list-style: none;
-  display: flex;
-  padding: 15px;
+.card-title {
+  color: #fe3434ff;
 }
 
-.reco__card {
-  padding: 10px;
-}
-
-.reco__image {
-  width: 90%;
-  padding-bottom: 10px;
-}
-
-.reco__title__index {
-  margin-bottom: 10px;
-}
-
-.reco__descr__index {
-  font-size: 16px;
-  font-style: italic;
+.card-text {
+  font-style:italic;
   color: #264653ff;
 }
 
+.card {
+  border-color: #e9c46aff;
+}
 /*Mains*/
 
 .selection {
