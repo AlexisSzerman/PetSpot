@@ -84,20 +84,6 @@ padding-left: 1rem;
   font-weight: bold;
 }
 
-@media only screen and (min-width: 992px) {
-  .navbar {
-    padding: 0;
-  }
-
-  .navbar .navbar-nav .nav-link {
-    padding: 0.5em 4em;
-  }
-
-  .navbar .navbar-brand {
-    padding: 0 0.8em;
-  }
-} 
-
 .navbarcolor {
   background-color: #264653ff;
 }
@@ -109,6 +95,11 @@ padding-left: 1rem;
 .navbarfontcolor {
   color: #e9c46aff;
 }
+
+.navbar {
+  padding: 0;
+}
+
 
 
 
@@ -407,3 +398,10 @@ footer {
   padding: 0.3rem;
   gap: 0.5rem;
 }
+
+@media only screen and (max-width:991px){
+  .navbar {
+    padding: 0.3rem;
+  }
+}
+
