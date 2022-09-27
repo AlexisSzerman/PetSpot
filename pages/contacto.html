@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   <title>PetSpot - Contacto</title>
   <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="../css/style.css" />
@@ -18,55 +20,63 @@
 
     <!-- Banner con logo y botones de perfil y contacto -->
 
-
-
-    <div class="banner">
-
-      <div class="banner__logo">
-        <a href="../index.html"><img class="logo__2" src="../images/logo2.png" alt="Logo" /></a>
-
-        <div class="banner__logo__h">
-
-          <h1>Pet Spot</h1>
-          <h3>Guía Petfriendly</h3>
-
+    <div class="text-start header p-3 header-mob">
+      <div class="row">
+        <div class="col-md-auto col-lg-auto"><a href="../index.html"><img class="logo2" src="../images/logo2.png"
+              alt="Logo" /></a></div>
+        <div class="col-md-auto col-lg-auto brand ms-1">
+          <h1 class="header-h1">Pet Spot</h1>
+          <h3 class="header-h3">Guía Petfriendly</h3>
         </div>
-
-        <div class="banner__right">
-          <a href="../pages/miperfil.html"><img src="../images/icono-perfil.png" alt="mi perfil"
-              class="banner__right__items" /></a>
-          <a href="../pages/contacto.html"><button type="button">Contacto</button class="banner__right__items"></a>
+        <div class="col-md col-lg"></div>
+        <div class="col-md-2 col-lg-1 header-side">
+          <a href="../pages/miperfil.html"><i class="bi bi-person-circle socialicon miperfil"></i></a>
+          <a href="../pages/contacto.html"><button class="btn1 navbarcolor-cont" type="button">Contacto</button></a>
         </div>
-
-
       </div>
-
-
     </div>
 
 
-    <!--Acá empieza el nav bar-->
+    <!--Navbar con Bootstrap-->
 
-    <nav class="nav">
-      <div>
 
-        <div class="nav__div">
-          <ul class="nav__menu">
+    <nav class="navbar navbar-expand-lg navbarcolor">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-fill w-100">
+            <li class="nav-item">
+              <a class="nav-link navbarfontcolor" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbarfontcolor" href="pages/alojamientos.html">Alojamientos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbarfontcolor" href="../pages/gastronomia.html">Gastronomía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbarfontcolor" href="../pages/actividades.html">Actividades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbarfontcolor" href="../pages/blog.html">Blog</a>
+            </li>
 
-            <li><a href="../index.html"><img src="../images/icono-home.png" alt="inicio" class="icon" />Inicio</a></li>
-            <li><a href="../pages/alojamientos.html"><img src="../images/icono-hotel.png" alt="hotel"
-                  class="icon" />Alojamientos</a></li>
-            <li><a href="../pages/gastronomia.html"> <img src="../images/icono-restaurante.png" alt="restaurante"
-                  class="icon" />Gastronomia</a></li>
-            <li><a href="../pages/actividades.html"><img src="../images/icono-actividades.png" alt="actividades"
-                  class="icon" />Actividades</a></li>
-            <li><a href="../pages/blog.html"><img src="../images/icono-blog.png" alt="blog" class="icon" />Blog</a></li>
+            <!--Cuando pasa a mobile desaperecen del banner y pasan al menú-->
+            <li class="nav-item nav-mobile">
+              <a class="nav-link navbarfontcolor" href="../pages/miperfil.html">Mi Perfil</a>
+            </li>
+            <li class="nav-item nav-mobile">
+              <a class="nav-link navbarfontcolor" href="../pages/contacto.html">Contacto</a>
+            </li>
 
           </ul>
         </div>
-
       </div>
     </nav>
+
   </header>
 
   <main>
@@ -101,8 +111,9 @@
   <!--Aca empieza el footer-->
 
   <footer>
+
     <div>
-      <ul class="footer__links">
+      <ul class="footer-links">
         <li><a href="../index.html">Inicio</a></li>
         <li><a href="../pages/alojamientos.html">Alojamientos</a></li>
         <li><a href="../pages/gastronomia.html">Gastronomia</a></li>
@@ -113,31 +124,29 @@
       </ul>
     </div>
 
-    <img src="../images/logo1.png" alt="logo 1" class="logo__1">
+    <img src="../images/logo1.png" alt="logo 1" class="logo-1">
 
     <!--Enlaces a Redes Sociales-->
 
-    <div class="footer__social">
-
-      <p class="footer__title">Encontranos en</p>
-
-      <ul class="footer__icons">
-
-        <li><a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png"
-              alt="facebook icon" /></a>
-        </li>
-        <li><a href="https://www.instagram.com" target="_blank"><img src="../images/instagram.png"
-              alt="facebook icon" /></a></li>
-        <li><a href="https://www.youtube.com" target="_blank"><img src="../images/youtube.png"
-              alt="facebook icon" /></a>
-        </li>
-        </li>
-
+    <div>
+      <p class="footer-title">Encontranos en</p>
+      <ul class="footer-icons">
+        <li><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook socialicon"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram socialicon"></i></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube socialicon"></i></a></li>
       </ul>
-
     </div>
 
   </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script>
+
 </body>
 
 </html>

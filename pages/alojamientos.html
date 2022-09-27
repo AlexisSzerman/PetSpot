@@ -19,48 +19,59 @@
 
     <!-- Banner con logo y botones de perfil y contacto -->
 
-
-    <div class="header">
-      
-      <div class="header_logo">
-        <a href="../index.html"><img class="logo__2" src="../images/logo2.png" alt="Logo" /></a>
+    <div class="text-start header p-3 header-mob">
+      <div class="row">
+        <div class="col-md-auto col-lg-auto"><a href="../index.html"><img class="logo2" src="../images/logo2.png"
+              alt="Logo" /></a></div>
+        <div class="col-md-auto col-lg-auto brand ms-1">
+          <h1 class="header-h1">Pet Spot</h1>
+          <h3 class="header-h3">Guía Petfriendly</h3>
+        </div>
+        <div class="col-md col-lg"></div>
+        <div class="col-md-2 col-lg-1 header-side">
+          <a href="../pages/miperfil.html"><i class="bi bi-person-circle socialicon miperfil"></i></a>
+          <a href="../pages/contacto.html"><button class="btn1" type="button">Contacto</button></a>
+        </div>
       </div>
-        
-      <div class="header-h">
-        <h1>Pet Spot</h1>
-        <h3>Guía Petfriendly</h3>
-      </div>
-
-      <div class="header-side">
-        <a href="../pages/miperfil.html"><img src="../images/icono-perfil.png" alt="mi perfil" /></a>
-        <a href="../pages/contacto.html"><button type="button">Contacto</button></a>
-      </div>
-
-      </div>
-
-
     </div>
 
 
-    <!--Acá empieza el nav bar-->
+    <!--Navbar con Bootstrap-->
 
-    <!-- Navbar bootstrap -->
 
     <nav class="navbar navbar-expand-lg navbarcolor">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
-          <div class="navbar-nav container-fluid">
-            <a class="nav-link navbarfontcolor" href="../index.html">Inicio</a>
-            <a class="nav-link active" aria-current="page" href="../pages/alojamientos.html">Alojamientos</a>
-            <a class="nav-link navbarfontcolor" href="../pages/gastronomia.html">Gastronomía</a>
-            <a class="nav-link navbarfontcolor" href="../pages/actividades.html">Actividades</a>
-            <a class="nav-link navbarfontcolor" href="../pages/blog.html">Blog</a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-fill w-100">
+            <li class="nav-item">
+              <a class="nav-link navbarfontcolor" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="pages/alojamientos.html">Alojamientos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbarfontcolor" href="../pages/gastronomia.html">Gastronomía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbarfontcolor" href="../pages/actividades.html">Actividades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbarfontcolor" href="../pages/blog.html">Blog</a>
+            </li>
+
+            <!--Cuando pasa a mobile desaperecen del banner y pasan al menú-->
+            <li class="nav-item nav-mobile">
+              <a class="nav-link navbarfontcolor" href="../pages/miperfil.html">Mi Perfil</a>
+            </li>
+            <li class="nav-item nav-mobile">
+              <a class="nav-link navbarfontcolor" href="../pages/contacto.html">Contacto</a>
+            </li>
+
+          </ul>
         </div>
       </div>
     </nav>
@@ -203,7 +214,7 @@
   <footer>
 
     <div>
-      <ul class="footer__links">
+      <ul class="footer-links">
         <li><a href="../index.html">Inicio</a></li>
         <li><a href="../pages/alojamientos.html">Alojamientos</a></li>
         <li><a href="../pages/gastronomia.html">Gastronomia</a></li>
@@ -214,28 +225,17 @@
       </ul>
     </div>
 
-    <img src="../images/logo1.png" alt="logo 1" class="logo__1">
+    <img src="../images/logo1.png" alt="logo 1" class="logo-1">
 
     <!--Enlaces a Redes Sociales-->
 
-    <div class="footer__social">
-
-      <p class="footer__title">Encontranos en</p>
-
-      <ul class="footer__icons">
-
-        <li><a href="https://www.facebook.com" target="_blank"><img src="../images/facebook.png"
-              alt="facebook icon" /></a>
-        </li>
-        <li><a href="https://www.instagram.com" target="_blank"><img src="../images/instagram.png"
-              alt="facebook icon" /></a></li>
-        <li><a href="https://www.youtube.com" target="_blank"><img src="../images/youtube.png"
-              alt="facebook icon" /></a>
-        </li>
-        </li>
-
+    <div>
+      <p class="footer-title">Encontranos en</p>
+      <ul class="footer-icons">
+        <li><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook socialicon"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram socialicon"></i></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><i class="bi bi-youtube socialicon"></i></a></li>
       </ul>
-
     </div>
 
   </footer>
