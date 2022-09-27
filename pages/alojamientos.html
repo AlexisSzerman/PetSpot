@@ -51,7 +51,7 @@
               <a class="nav-link navbarfontcolor" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="pages/alojamientos.html">Alojamientos</a>
+              <a class="nav-link active" aria-current="page" href="../pages/alojamientos.html">Alojamientos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link navbarfontcolor" href="../pages/gastronomia.html">Gastronomía</a>
@@ -78,36 +78,13 @@
 
   </header>
 
-
-
   <main>
 
     <section class="selection">
-      <h2 class="reco__h2">Alojamientos</h2>
-      <p id="selection_p">Ajusta tu busqueda</p>
+      <h2 class="reco-h2">Alojamientos</h2>
+      <p id="selection-p">Ajustá tu busqueda</p>
 
-      <div class="selectors">
-
-        <div>
-          <select required>
-            <option>Buenos Aires</option>
-            <option>Cordoba</option>
-            <option>Mendoza</option>
-            <option>Santa Fe</option>
-          </select>
-        </div>
-
-        <div>
-          <select disabled>
-            <option value="capital">Localidad</option>
-          </select>
-        </div>
-
-        <div>
-          <select disabled>
-            <option value="capital">Barrio</option>
-          </select>
-        </div>
+      <!--      <div class="selectors">
 
         <div>
           <label for=""> Más de una mascota por habitación</label>
@@ -118,8 +95,54 @@
 
         <input type="submit" value="Buscar!">
 
+ -->
+      <div class="d-flex flex-column flex-md-row flex-lg-row flex-lg-row justify-content-evenly align-items-center">
+      <div class="dropdown-center">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Provincia
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item active" href="#">Buenos Aires</a></li>
+          <li><a class="dropdown-item disabled" href="#">Córdoba</a></li>
+          <li><a class="dropdown-item disabled" href="#">Mendoza</a></li>
+          <li><a class="dropdown-item disabled" href="#">Santa Fe</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown-center">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Localidad
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item active" href="#">Ciudad de Buenos Aires</a></li>
+          <li><a class="dropdown-item disabled" href="#">Provincia de Buenos Aires</a></li>
+          <li><a class="dropdown-item disabled" href="#">La Plata</a></li>
+          <li><a class="dropdown-item disabled" href="#">Partido de la Costa</a></li>
+        </ul>
+      </div>
+
+      <div class="dropdown-center">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Barrio
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item disabled" href="#">Palermo</a></li>
+          <li><a class="dropdown-item disabled" href="#">Villa Crespo</a></li>
+          <li><a class="dropdown-item disabled" href="#">Caballito</a></li>
+          <li><a class="dropdown-item active" href="#">Puerto Madero</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <label for=""> Más de una mascota por habitación</label>
+        <input type="checkbox">
+        <button type="button" class="btn1 searchtype">Buscar!</button>
 
       </div>
+      
+      
+
+    </div>
 
     </section>
 
