@@ -360,11 +360,9 @@ textarea {
 
 /* Footer*/
 
-
 .logo-1 {
   width: 4rem;
 }
-
 
 footer {
   padding: 1rem; 
@@ -374,7 +372,7 @@ footer {
   align-items: center;
 }
 
-.footer__title {
+.footer-title {
   font-size: 1rem;
   color: #264653ff;
   margin: 0;
@@ -408,6 +406,10 @@ footer {
    .header-side {
     margin-right: 3.3rem;
   } 
+  video {
+    padding: 2rem;
+    width: 85%;
+  }
 }
 
 @media only screen and (max-width:767px) {
