@@ -59,7 +59,7 @@
               <a class="nav-link navbarfontcolor" href="../pages/gastronomia.html">Gastronomía</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page"  href="../pages/actividades.html">Actividades</a>
+              <a class="nav-link active" aria-current="page" href="../pages/actividades.html">Actividades</a>
             </li>
             <li class="nav-item">
               <a class="nav-link navbarfontcolor" href="../pages/blog.html">Blog</a>
@@ -85,117 +85,187 @@
   <main>
 
     <section class="selection">
-      <h2 class="reco__h2">Actividades</h2>
-      <p id="selection_p">Ajusta tu busqueda</p>
+      <h2 class="reco-h2">Actividades</h2>
+      <p id="selection-p">Ajustá tu busqueda</p>
 
-      <div class="selectors">
-
-
-        <div>
-          <select disabled>
-            <option value="capital">Buenos Aires</option>
-          </select>
+      <div class="d-flex flex-column flex-md-row flex-lg-row flex-lg-row justify-content-evenly align-items-center">
+        <div class="dropdown-center mb-2 mb-md-0 mb-lg-0 mb-xl-0">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Provincia
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item active" href="#">Buenos Aires</a></li>
+            <li><a class="dropdown-item disabled" href="#">Córdoba</a></li>
+            <li><a class="dropdown-item disabled" href="#">Mendoza</a></li>
+            <li><a class="dropdown-item disabled" href="#">Santa Fe</a></li>
+          </ul>
         </div>
 
-        <div>
-          <select disabled>
-            <option value="capital">Capital Federal</option>
-          </select>
+        <div class="dropdown-center mb-2 mb-md-0 mb-lg-0 mb-xl-0">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Localidad
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item active" href="#">Ciudad de Buenos Aires</a></li>
+            <li><a class="dropdown-item disabled" href="#">Provincia de Buenos Aires</a></li>
+            <li><a class="dropdown-item disabled" href="#">La Plata</a></li>
+            <li><a class="dropdown-item disabled" href="#">Partido de la Costa</a></li>
+          </ul>
         </div>
 
-        <div>
-          <select disabled>
-            <option value="capital">Palermo</option>
-          </select>
+        <div class="dropdown-center mb-2 mb-md-0 mb-lg-0 mb-xl-0">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Barrio
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item active" href="#">Palermo</a></li>
+            <li><a class="dropdown-item disabled" href="#">Villa Crespo</a></li>
+            <li><a class="dropdown-item disabled" href="#">Caballito</a></li>
+            <li><a class="dropdown-item disabled" href="#">Monserrat</a></li>
+          </ul>
         </div>
 
-        <div>
-          <select required>
-            <option>Aire Libre</option>
-            <option>Shopping</option>
-            <option>Otros</option>
-          </select>
+        <div class="dropdown-center mb-2 mb-md-0 mb-lg-0 mb-xl-0">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Tipo
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item disabled" href="#">Aire Libre</a></li>
+            <li><a class="dropdown-item disabled" href="#">Bajo techo</a></li>
+            <li><a class="dropdown-item active" href="#">Shopping</a></li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column flex-md-row flex-lg-row flex-lg-row align-items-center">
+          <button type="button" class="btn1 searchtype mb-2">Buscar!</button>
         </div>
 
-        <input type="submit" value="Buscar!">
       </div>
-
     </section>
-    
+
     <hr>
 
     <section>
 
       <!--Actividad y descripcion-->
-
-
-      <div class="reco__title">
-        <h2 class="reco__h2">Recomendado</h2>
-        <h4>Distrito Arcos</h4>
+ 
+      <div class="container-fluid container-sm container-md container-lg container-xl">
+        <h2 class="reco-h2">Recomendado</h2>
       </div>
 
-      <div class="reco">
-        <img id="img_hotel" src="../images/shopping.jpg" alt="shopping" title="un shopping" />
-        <p class="reco__descr">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae vel debitis, veritatis consequuntur perferendis eligendi earum incidunt totam maxime velit culpa doloribus, voluptatum sit nobis ipsam architecto facere? Earum.
-          Veniam veritatis, dolor saepe temporibus distinctio excepturi beatae? Distinctio quam natus sed nostrum voluptas at iste. Mollitia perferendis voluptate esse illum perspiciatis, expedita laudantium distinctio consequuntur eaque quibusdam vitae laborum?
-          Adipisci voluptatem, dignissimos quisquam laboriosam repellendus numquam iure quae beatae, dolore at error ipsa quod vel facere eum! Architecto odio officiis vel ea dicta dolore aperiam quos perferendis officia delectus!
-          Error dolores saepe dolorum! Asperiores deleniti nobis voluptatem minima, accusantium eveniet, nisi illo veritatis dolor perspiciatis consectetur? Distinctio cupiditate, fugit saepe quia, totam voluptate pariatur ipsam, itaque laborum quod in.
-          Unde nostrum consequuntur porro accusamus necessitatibus aspernatur molestiae, neque quisquam nihil maxime hic eos omnis dicta nisi aliquid impedit dignissimos dolor ducimus? Numquam dicta ipsa ex placeat minus libero expedita.
-          Quod optio ea doloremque, laudantium corporis recusandae similique facilis, culpa pariatur id minima error provident odio enim laboriosam, et quos maiores neque? Iure voluptatibus soluta dolorum asperiores praesentium! Omnis, quaerat?
-        </p>
+      <div class="container-fluid container-sm container-md container-lg container-xl">
+        <div class="card mb-3 mx-md-5 mx-lg-5 mx-xl-5 mx-xl-5">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../images/shopping.jpg" class="img-fluid rounded-start" alt="Restaurante">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Distrito Arcos</h5>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <p class="card-text">
+                  Distrito arcos es un concepto comercial urbano con características novedosas y únicas. Con un espíritu de Premium Outlet, ofrece una experiencia de compra única que combina las mejores marcas con una propuestas de compra premium que incluye productos al mejor precio y variadas opciones gastronómicas en un entorno diferente.
+                  El paseo comercial está definido por espacios verdes y al aire libre. El recorrido cuenta con elementos de equipamiento urbanos acompañado por góndolas, terrazas y pérgolas enmarcadas en una estructura de arcos. En el espacio exterior las áreas con vegetación son las protagonistas. Ideal para visitar con tus mascotas!
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
 
       <div>
 
         <!--Seccion de mapa y comentarios-->
-        <p class="comment_title">Comentarios</p>
+        <div class="map container">
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.933693929238!2d-58.42997118523432!3d-34.580544263778286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aabcb7b7fd341%3A0xd4d803156d38286c!2sDistrito%20Arcos%20Premium%20Outlet!5e0!3m2!1ses-419!2sar!4v1662137033810!5m2!1ses-419!2sar"
+          width="90%" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        
+       
+       
+        <p class="comment-title">Últimos comentarios</p>
 
-
-        <div class="comments_section">
+        <div class="comments-section">
           <div class="comments">
 
-            <img src="../images/icono-perfil.png" alt="foto de Perfil">
-            <p class="comments_name">Firulais</p>
-            <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto
-              iure perferendis
-              repudiandae
-              nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
-              enim!
-            </p>
+            <div class="comment">
+              <div class="identity">
+                <i class="bi bi-person-circle socialicon miperfil"></i>
+                <p class="comments-name">Dracarys</p>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+              </div>
 
-            <img src="../images/icono-perfil.png" alt="foto de Perfil">
-            <p class="comments_name">Doggy</p>
-            <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto
-              iure perferendis
-              repudiandae
-              nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
-              enim!
-            </p>
-            <img src="../images/icono-perfil.png" alt="foto de Perfil">
-            <p class="comments_name">Katniss</p>
-            <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto
-              iure perferendis
-              repudiandae
-              nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
-              enim!
-            </p>
-            <img src="../images/icono-perfil.png" alt="foto de Perfil">
-            <p class="comments_name">India</p>
-            <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto
-              iure perferendis
-              repudiandae
-              nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
-              enim!
-            </p>
+              <p class="comment-p"> Lindo paseo para hacer con mis perros. Los precios no son de outlet como promocionan, pero bueno...
+              </p>
+            </div>
+
+            <div class="comment">
+              <div class="identity">
+                <i class="bi bi-person-circle socialicon miperfil"></i>
+                <p class="comments-name">Dexter</p>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
 
 
+              <p class="comment-p">Me gustó mucho el paseo. En algunas tiendas te dejan entrar con tu perro inclusive. Le faltarían algunas zonas más de sombra, ya que al ser abierto pega el sol constantemente. 
+              </p>
+
+
+            </div>
+            <div class="comment">
+              <div class="identity">
+                <i class="bi bi-person-circle socialicon miperfil"></i>
+                <p class="comments-name">Alicent</p>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star star"></i>
+                <i class="bi bi-star star"></i>
+                <i class="bi bi-star star"></i>
+
+              </div>
+
+
+              <p class="comment-p"> Es cierto que podes entrar con tu perro, pero hay solo una zona específica donde pueden hacer sus necesidades, en la otra punta del predio. A mejorar ese punto.
+              </p>
+
+            </div>
+
+            <div class="comment">
+              <div class="identity">
+                <i class="bi bi-person-circle socialicon miperfil"></i>
+                <p class="comments-name">Loki</p>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="comment-p">Era lo que nos falaba a los que nos gusta salir con nuestras mascotas. Un espacio amplio donde poder salir a pasear y hacer algunas compras (si hay promociones).
+              </p>
+            </div>
           </div>
+        </div>
 
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.933693929238!2d-58.42997118523432!3d-34.580544263778286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aabcb7b7fd341%3A0xd4d803156d38286c!2sDistrito%20Arcos%20Premium%20Outlet!5e0!3m2!1ses-419!2sar!4v1662137033810!5m2!1ses-419!2sar"
-            width="800" style="border:0;" allowfullscreen=""></iframe>
+         
 
     </section>
 
@@ -234,11 +304,11 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-</script>
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
 
 </body>
 

@@ -194,6 +194,7 @@ span {
   font-size: 1.5rem;
   color: #fe3434ff;
   font-style: italic;
+  
 }
 
 /* Recomendados*/
@@ -229,18 +230,39 @@ h4 {
 
 /* Mapa y comentarios*/
 
-.comment_title {
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.comment-title {
   font-size: 1rem;
   font-weight: bold;
   color: #264653ff;
-  margin: 40px 0 0 20px;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  margin: 0;
 }
 
-.comments_section {
+.comments-section {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 1.5rem;
+  background-color: rgb(255, 255, 255, 0.4);
+  border:0.1rem solid #264653ff;
+  border-radius:0.5rem;
+  margin: 1rem;
+
 }
+
+.comment {
+  border:0.1rem solid #264653ff;
+  border-radius:0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0 0.5rem 0;
+  background-color: rgb(255, 255, 255, 0.6);
+  height: auto;
+}
+
 
 .comments {
   font-size: 1rem;
@@ -248,21 +270,23 @@ h4 {
   text-align: justify;
 }
 
-.comments_name {
-  font-size: 16px;
+.comments-name {
+  display: inline;
+  font-size: 1rem;
   font-weight: bold;
   color: #fe3434ff;
+  margin:0 0.5rem 0 0.5rem;
+
 }
 
-iframe {
-  margin: 10px;
-  padding: 10px;
+.comment-p {
+  margin: 0;
 }
 
-.comment_p {
-  width: 90%;
+.identity{
+  display: flex;
+  align-items: center;
 }
-
 /*Blog Articulos*/
 
 .blog_images {
@@ -358,7 +382,7 @@ textarea {
 }
 
 footer {
-  padding: 1rem; 
+  padding: 1rem;
   background-color: #e9c46aff;
   display: flex;
   justify-content: space-between;
@@ -396,12 +420,19 @@ footer {
     display: none;
   }
 
-   .header-side {
+  .header-side {
     margin-right: 3.3rem;
-  } 
+  }
+
   video {
     padding: 2rem;
     width: 85%;
+  }
+  .reco-h2{
+    margin-left: 3.3rem;
+  }
+  #selection-p {
+    margin-left: 3rem;
   }
 }
 
@@ -428,25 +459,27 @@ footer {
   }
 
   .socialicon {
-    font-size:  2.5rem;
+    font-size: 2.5rem;
   }
 
   .logo-1 {
     width: 3rem;
   }
-footer {
-  padding: 1rem 0;
-}
 
-video {
-  padding: 1rem;
-  width: 100%;
-}
-.searchbar-p {
-  font-size: 2.5rem;
-  color: #264653ff;
-  margin-bottom: 1rem;
-  text-align: center;
-}
+  footer {
+    padding: 1rem 0;
+  }
+
+  video {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .searchbar-p {
+    font-size: 2.5rem;
+    color: #264653ff;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
 
 }

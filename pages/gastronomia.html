@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -82,130 +82,188 @@
   <main>
 
     <section class="selection">
-      <h2 class="reco__h2">Gastronomia</h2>
-      <p id="selection_p">Ajusta tu busqueda</p>
+      <h2 class="reco-h2">Gastronomía</h2>
+      <p id="selection-p">Ajustá tu busqueda</p>
 
-      <div class="selectors">
 
-        <div>
-          <select disabled>
-            <option value="capital">Buenos Aires</option>
-          </select>
+      <div class="d-flex flex-column flex-md-row flex-lg-row flex-lg-row justify-content-evenly align-items-center">
+        <div class="dropdown-center mb-2 mb-md-0 mb-lg-0 mb-xl-0">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Provincia
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item active" href="#">Buenos Aires</a></li>
+            <li><a class="dropdown-item disabled" href="#">Córdoba</a></li>
+            <li><a class="dropdown-item disabled" href="#">Mendoza</a></li>
+            <li><a class="dropdown-item disabled" href="#">Santa Fe</a></li>
+          </ul>
         </div>
 
-        <div>
-          <select disabled>
-            <option value="capital">Capital Federal</option>
-          </select>
+        <div class="dropdown-center mb-2 mb-md-0 mb-lg-0 mb-xl-0">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Localidad
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item active" href="#">Ciudad de Buenos Aires</a></li>
+            <li><a class="dropdown-item disabled" href="#">Provincia de Buenos Aires</a></li>
+            <li><a class="dropdown-item disabled" href="#">La Plata</a></li>
+            <li><a class="dropdown-item disabled" href="#">Partido de la Costa</a></li>
+          </ul>
         </div>
 
-        <div>
-          <select disabled>
-            <option value="capital">Monserrat</option>
-          </select>
+        <div class="dropdown-center mb-2 mb-md-0 mb-lg-0 mb-xl-0">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Barrio
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item disabled" href="#">Palermo</a></li>
+            <li><a class="dropdown-item disabled" href="#">Villa Crespo</a></li>
+            <li><a class="dropdown-item disabled" href="#">Caballito</a></li>
+            <li><a class="dropdown-item active" href="#">Monserrat</a></li>
+          </ul>
         </div>
 
-        <div>
-          <select required>
-            <option>Bar</option>
-            <option>Cafe</option>
-            <option>Cerveceria</option>
-            <option>Restaurante</option>
-          </select>
+        <div class="dropdown-center mb-2 mb-md-0 mb-lg-0 mb-xl-0">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Tipo
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item disabled" href="#">Bar</a></li>
+            <li><a class="dropdown-item disabled" href="#">Café</a></li>
+            <li><a class="dropdown-item disabled" href="#">Cervecería</a></li>
+            <li><a class="dropdown-item active" href="#">Restaurante</a></li>
+          </ul>
         </div>
 
-        <div>
-          <label for=""> Petfriendly adentro</label>
-          <input type="checkbox">
+        <div class="d-flex flex-column flex-md-row flex-lg-row flex-lg-row align-items-center">
+          <label class="card-text searchtype" for=""> Pet Friendly adentro</label>
+          <input class="" type="checkbox">
+          <button type="button" class="btn1 searchtype mb-2">Buscar!</button>
+
         </div>
 
-        <input type="submit" value="Buscar!">
+
+
       </div>
     </section>
-    
+
     <hr>
 
     <section>
 
       <!--Restaurant y descripcion-->
-
-      <div class="reco__title">
-        <h2 class="reco__h2">Recomendado</h2>
-        <h4>Napoles - Cocina italiana</h4>
+     
+      <div class="container-fluid container-sm container-md container-lg container-xl">
+        <h2 class="reco-h2">Recomendado</h2>
       </div>
+        
 
-      <div class="reco">
-        <img id="img_hotel" src="../images/restaurante.jpg" alt="restaurante" title="una restaurante" />
-        <p class="reco__descr">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat eius labore sequi perferendis sapiente
-          nostrum, delectus incidunt mollitia ducimus illum blanditiis repudiandae quos, deleniti excepturi vero ad
-          consectetur officiis exercitationem.
-          Deserunt, odit aut? Quasi officia aliquam temporibus distinctio corporis laboriosam alias rem maxime
-          consequatur tempore porro sequi, expedita unde, eaque modi dolor, libero repellat! Quisquam iusto iure
-          adipisci impedit eveniet!
-          Ipsam repudiandae, nulla dicta illo delectus sequi eum culpa cupiditate aut dignissimos repellat cumque
-          perferendis. Atque fugiat, possimus excepturi repellat, aliquid nostrum enim tenetur quod mollitia qui eum
-          ipsam aut.
-          Dolorem alias amet fuga eaque? Tenetur, doloremque architecto non consequatur consectetur vel voluptatem quia
-          magni odit distinctio assumenda magnam pariatur rerum aspernatur voluptate! Deleniti cum, provident voluptates
-          incidunt id velit.
-          Deserunt, voluptatum sequi amet ipsam numquam rerum asperiores eos magnam dolorem. Voluptates, harum!
-          Blanditiis accusamus tempore dolorum sint esse temporibus ex, dolores animi, veniam perspiciatis, magni
-          inventore architecto tempora officiis?
-          Voluptatem, autem repellat recusandae, modi dolorum dolor harum dolores consequuntur sequi quae laborum nobis
-          assumenda. Explicabo nobis architecto dicta veritatis eius eligendi itaque iusto laudantium harum, amet at
-          beatae aut!
-        </p>
+      <div class="container-fluid container-sm container-md container-lg container-xl">
+        <div class="card mb-3 mx-md-5 mx-lg-5 mx-xl-5 mx-xl-5">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../images/restaurante.jpg" class="img-fluid rounded-start" alt="Restaurante">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Nápoles - Cocina italiana</h5>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <p class="card-text">Nápoles es un espacio colmado de antigüedades. Traspasar su portón es ingresar en una dimensión diferente. En la entrada misma, una suerte de almacén de época, con sus balanzas y cortadoras de fiambres, da la bienvenida. Más allá, grandes mostradores, hornos y vitrinas del siglo pasado. En un lateral, la barra de tragos fusiona un espíritu joven con estética antigua. Y los objetos, las grandes estrellas de la casa, emergiendo en cada rincón. Un buen trago, un plato tradicional de pastashuta y el arte estallando por todos lados. Plan irresistible para que nos acompañen nuestros amigos de cuatro patas.
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-
-      <div>
 
         <!--Seccion de mapa y comentarios-->
-        <p class="comment_title">Comentarios</p>
 
-
-        <div class="comments_section">
-          <div class="comments">
-
-            <img src="../images/icono-perfil.png" alt="foto de Perfil">
-            <p class="comments_name">Firulais</p>
-            <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto
-              iure perferendis
-              repudiandae
-              nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
-              enim!
-            </p>
-
-            <img src="../images/icono-perfil.png" alt="foto de Perfil">
-            <p class="comments_name">Doggy</p>
-            <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto
-              iure perferendis
-              repudiandae
-              nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
-              enim!
-            </p>
-            <img src="../images/icono-perfil.png" alt="foto de Perfil">
-            <p class="comments_name">Katniss</p>
-            <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto
-              iure perferendis
-              repudiandae
-              nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
-              enim!
-            </p>
-            <img src="../images/icono-perfil.png" alt="foto de Perfil">
-            <p class="comments_name">India</p>
-            <p class="comment_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem architecto
-              iure perferendis
-              repudiandae
-              nemo veniam quam distinctio placeat nesciunt voluptatum, optio eos aut vel ipsam molestiae quibusdam ab
-              enim!
-            </p>
-
-
-          </div>
+        <div class="map container">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1160717490693!2d-58.37393058523265!3d-34.626506966210336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb32d2ba0b75%3A0x96c0cd37cfe3b575!2zTsOhcG9sZXM!5e0!3m2!1ses-419!2sar!4v1662135722277!5m2!1ses-419!2sar"
-            style="border:0;" allowfullscreen="" width="800"></iframe>
+            style="border:0;" allowfullscreen="" width="90%" height="auto"></iframe>
+        </div>
+
+
+        <p class="comment-title">Últimos comentarios</p>
+
+        <div class="comments-section">
+          <div class="comments">
+
+            <div class="comment">
+              <div class="identity">
+                <i class="bi bi-person-circle socialicon miperfil"></i>
+                <p class="comments-name">Michi</p>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+              </div>
+
+              <p class="comment-p"> Muy espacioso y lleno de reliquias muy interesantes. Muy buen trato con las mascotas. La comida me gustó, pero un tanto cara.
+              </p>
+            </div>
+
+            <div class="comment">
+              <div class="identity">
+                <i class="bi bi-person-circle socialicon miperfil"></i>
+                <p class="comments-name">Ricky</p>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+
+
+              <p class="comment-p">Recomendado, para humanos y mascotas! Muy interesantes todas los objetos que hay. Trataron muy bien a mi perrito.
+              </p>
+
+
+            </div>
+            <div class="comment">
+              <div class="identity">
+                <i class="bi bi-person-circle socialicon miperfil"></i>
+                <p class="comments-name">Aragorn</p>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star star"></i>
+                <i class="bi bi-star star"></i>
+
+              </div>
+
+
+              <p class="comment-p"> Muy bueno que se pueda entrar con las mascotas, pero la comida deja mucho que desear. Bastante caro para lo que ofrece. Lo bueno es poder ver todas las antigüedades que hay.
+              </p>
+
+            </div>
+
+            <div class="comment">
+              <div class="identity">
+                <i class="bi bi-person-circle socialicon miperfil"></i>
+                <p class="comments-name">Ragnar</p>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-fill star"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="comment-p">Lo recomiendo! Muy bueno el lugar para hacer fotos con las mascotas. Muy rica la comida, pero la carta es bastante acotada.
+              </p>
+            </div>
+          </div>
         </div>
 
     </section>
