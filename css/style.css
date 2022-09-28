@@ -67,11 +67,6 @@ body {
   color: #fe3434ff;
 }
 
-/* .footer-link:hover {
-  color: #fe3434ff;
-} */
-
-
 .miperfil {
   padding-left: 1rem;
 }
@@ -116,9 +111,6 @@ body {
   padding: 0;
 }
 
-
-
-
 /*Main Index*/
 
 video {
@@ -156,7 +148,6 @@ span {
 .searchtype {
   margin: 1rem;
   padding: 0.3rem;
-
 }
 
 
@@ -166,13 +157,15 @@ span {
   font-size: 2rem;
   color: #264653ff;
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin: 1rem 0 1rem 0;
 }
 
 .star {
   color: #264653ff;
 }
-
+.star:hover{
+  color:#e9c46aff;
+}
 .card-title {
   color: #fe3434ff;
 }
