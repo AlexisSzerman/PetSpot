@@ -281,6 +281,9 @@ figcaption {
   color: #264653ff;
 }
 
+.users {
+  width:3rem;
+}
 /*Aside con descuentos Blog*/
 
 .discounts {
