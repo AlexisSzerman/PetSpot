@@ -306,10 +306,6 @@ figcaption {
 
 /* Formulario de Contacto */
 
-.title {
-  padding: 20px;
-}
-
 .form {
   display: flex;
   flex-direction: column;
@@ -443,6 +439,11 @@ footer {
     color: #264653ff;
     margin-bottom: 1rem;
     text-align: center;
+  }
+
+  #selection-p,
+  .reco-h2{
+    margin-left: 2rem;
   }
 
 }
