@@ -4,6 +4,15 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
 * {
-  font-family: "Roboto", sans-serif;
-  list-style: none;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+
+    body {
+        background-image: url(../images/background.png);
+
+        a {
+            text-decoration: none;
+            font-weight: 500;
+        }
+    }
 }
