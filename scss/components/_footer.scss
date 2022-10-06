@@ -1,0 +1,9 @@
+@import '../base/lists';
+
+
+
+.footer-link {
+    &:hover {
+        color:nth($colors, 3);
+    }
+} 

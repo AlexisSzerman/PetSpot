@@ -20,6 +20,46 @@
   font-weight: 500;
 }
 
+.header {
+  background-color: #e9c46a;
+  color: #264653;
+}
+.header .brand {
+  margin-top: 1.5rem;
+  margin-left: -1.5rem;
+}
+.header .brand .header-h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+  margin: 0;
+}
+.header .brand .header-h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 0;
+}
+.header .socialicon {
+  color: #264653;
+  font-size: 2.5rem;
+}
+.header .socialicon:hover {
+  color: #fe3434;
+}
+.header .miperfil {
+  padding-left: 1rem;
+}
+
+/* .footer-link {
+    &:hover {
+        color:nth($colors, 3);
+    }
+} */
+/*No se para que era esta clase*/
+.navbarcolor-cont {
+  color: #fe3434 !important;
+}
+
 .btn1 {
   color: #e9c46a;
   background-color: #264653;
