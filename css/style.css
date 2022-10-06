@@ -50,16 +50,6 @@
   padding-left: 1rem;
 }
 
-/* .footer-link {
-    &:hover {
-        color:nth($colors, 3);
-    }
-} */
-/*No se para que era esta clase*/
-.navbarcolor-cont {
-  color: #fe3434 !important;
-}
-
 .btn1 {
   color: #e9c46a;
   background-color: #264653;
@@ -71,6 +61,49 @@
   transition-property: all;
   transition-duration: 1s;
   background-color: #fe3434;
+}
+
+/*Al estar fuera de la navbar necesitaba esta clase para que figure como "active" cuando fuera seleccionado*/
+.navbarcolor-cont {
+  color: #fe3434 !important;
+}
+
+.footer-link:hover {
+  color: #fe3434;
+}
+
+.navbarcolor {
+  background-color: #264653;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding: 0.6em;
+  font-size: 1.2em;
+  transition: all 0.5s;
+}
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #e9c46a;
+  color: #fe3434;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fe3434;
+}
+
+/*   
+no me acuerdo que hacia, creo que nada
+
+.navbar .navbar-brand {
+    padding: 0 0.6em;
+    font-size: 1.5em;
+    font-weight: bold;
+  } */
+.navbarfontcolor {
+  color: #e9c46a;
+}
+
+.navbar {
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

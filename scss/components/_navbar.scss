@@ -1,0 +1,46 @@
+@import '../base/lists';
+
+
+.navbarcolor {
+    background-color: #264653ff;
+
+
+}
+
+
+.navbar .navbar-nav .nav-link {
+    padding: 0.6em;
+    font-size: 1.2em;
+    transition: all 0.5s;
+      
+    &:hover {
+        background-color: #e9c46aff;
+        color: #fe3434ff;    
+     }
+}
+
+
+.navbar-nav .nav-link.active {
+    color: #fe3434ff;
+  }
+/*   
+no me acuerdo que hacia, creo que nada
+
+.navbar .navbar-brand {
+    padding: 0 0.6em;
+    font-size: 1.5em;
+    font-weight: bold;
+  } */
+  
+
+  
+ 
+  
+  .navbarfontcolor {
+    color: #e9c46aff;
+  }
+  
+  .navbar {
+    padding: 0;
+  }
+  
