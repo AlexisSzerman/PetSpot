@@ -19,20 +19,19 @@
             font-size: nth($font-size, 2);
             font-style: italic;
             margin: 0;
-        }        
-    }.socialicon {
-        color: nth($colors, 2);
-        font-size: nth($font-size, 4);
-       
-        &:hover {
-            color:nth($colors, 3);
         }
     }
-    
+
+    .socialicon {
+        color: nth($colors, 2);
+        font-size: nth($font-size, 4);
+
+        &:hover {
+            color: nth($colors, 3);
+        }
+    }
+
     .miperfil {
         padding-left: 1rem;
     }
 }
-
-
-

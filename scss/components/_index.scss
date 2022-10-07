@@ -1,9 +1,6 @@
 @import '../base/lists';
 @import '../base/mixin';
 
-
-/*Main Index*/
-
 video {
     display: block;
     margin: auto;
@@ -39,5 +36,44 @@ video {
         }
 
     }
+
+}
+
+
+/*Recomendaciones Index*/
+
+.container {
+
+    .reco-h2 {
+        font-size: nth($font-size, 3);
+        color: nth($colors, 2);
+        font-weight: 500;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .card {
+
+        border-color: nth($colors, 1);
+
+        .card-title {
+            color: nth($colors, 3);
+        }
+
+        .card-text {
+            font-style: italic;
+            color: nth($colors, 2);
+        }
+
+        .star {
+            color: nth($colors, 2);
+
+            &:hover {
+                color: nth($colors, 1);
+            }
+        }
+
+
+    }
+
 
 }

@@ -1,38 +1,41 @@
 @import '../base/lists';
 
 
+
 .navbarpadd {
   padding: 0;
 }
 
 .navbarcolor {
   background-color: nth($colors, 2);
-  
+
   .navbarfontcolor {
     color: nth($colors, 1);
-  } 
+  }
+
   .nav-link {
     font-size: 1.2em;
     transition: all 0.5s;
-   
+
     &:hover {
-        background-color: nth($colors, 1);
-        color: nth($colors, 3);   
-     }    
-}
- 
+      background-color: nth($colors, 1);
+      color: nth($colors, 3);
+    }
+  }
+
   .nav-link.active {
     color: nth($colors, 3);
   }
-  
+
 }
 
-  /* no me acuerdo que hacia, creo que nada. Dejar hasta estar seguro
+
+
+
+/* no me acuerdo que hacia, creo que nada. Dejar hasta estar seguro
 
 .navbar .navbar-brand {
     padding: 0 0.6em;
     font-size: 1.5em;
     font-weight: bold;
   } */
-
-  

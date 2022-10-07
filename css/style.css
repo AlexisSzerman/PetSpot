@@ -9,12 +9,6 @@
 * body {
   background-image: url(../images/background.png);
 }
-* body video {
-  display: block;
-  margin: auto;
-  padding: 3rem;
-  width: 70%;
-}
 * body a {
   text-decoration: none;
   font-weight: 500;
@@ -68,8 +62,48 @@
   color: #fe3434 !important;
 }
 
-.footer-link:hover {
+/*Null para deshabilitar uno de que no necesite*/
+/* ejemplo
+.map {
+    @include displays (block,null ,center )
+} */
+footer {
+  padding: 1rem;
+  background-color: #e9c46a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-links a {
+  color: #264653;
+}
+footer .footer-links a:hover {
   color: #fe3434;
+  text-decoration: underline;
+}
+footer .footer-title {
+  font-size: 1rem;
+  color: #264653;
+  margin: 0;
+  padding-left: 1.5rem;
+  font-weight: 500;
+}
+footer .footer-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+footer .socialicon {
+  color: #264653;
+  font-size: 2.5rem;
+}
+footer .socialicon:hover {
+  color: #fe3434;
+}
+footer .logo-1 {
+  width: 4rem;
 }
 
 .navbarpadd {
@@ -111,7 +145,6 @@
 .map {
     @include displays (block,null ,center )
 } */
-/*Main Index*/
 video {
   display: block;
   margin: auto;
@@ -142,6 +175,30 @@ video {
 .searchbar .searchbar-items .searchtype {
   margin: 1rem;
   padding: 0.3rem;
+}
+
+/*Recomendaciones Index*/
+.container .reco-h2 {
+  font-size: 2rem;
+  color: #264653;
+  font-weight: 500;
+  margin: 1rem 0 1rem 0;
+}
+.container .card {
+  border-color: #e9c46a;
+}
+.container .card .card-title {
+  color: #fe3434;
+}
+.container .card .card-text {
+  font-style: italic;
+  color: #264653;
+}
+.container .card .star {
+  color: #264653;
+}
+.container .card .star:hover {
+  color: #e9c46a;
 }
 
 /*# sourceMappingURL=style.css.map */
