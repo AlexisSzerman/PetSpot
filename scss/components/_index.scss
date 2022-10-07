@@ -1,0 +1,43 @@
+@import '../base/lists';
+@import '../base/mixin';
+
+
+/*Main Index*/
+
+video {
+    display: block;
+    margin: auto;
+    padding: 3rem;
+    width: 70%;
+}
+
+.searchbar {
+    padding: 4rem;
+
+    .searchbar-items {
+        @include displays (flex, null, center);
+        flex-direction: column;
+
+        .searchbar-p {
+            font-size: nth($font-size, 3);
+            color: nth($colors, 2);
+            margin-bottom: 0.6rem;
+        }
+
+        span {
+            color: nth($colors, 3);
+        }
+
+        .input-index {
+            border-color: nth($colors, 2);
+            width: auto;
+        }
+
+        .searchtype {
+            margin: 1rem;
+            padding: 0.3rem;
+        }
+
+    }
+
+}

@@ -1,0 +1,13 @@
+
+@mixin displays ($display , $justify , $align) {
+display:$display;
+justify-content: $justify;
+align-items: $align;
+}
+
+/*Null para deshabilitar uno de que no necesite*/
+
+/* ejemplo
+.map {
+    @include displays (block,null ,center )
+} */

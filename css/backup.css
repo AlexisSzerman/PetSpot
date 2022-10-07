@@ -76,7 +76,7 @@ body {
  */
 
 /*Nav Bar*/
-
+/* 
 .navbar .navbar-nav .nav-link:hover {
   background-color: #e9c46aff;
   color: #fe3434ff;
@@ -109,8 +109,9 @@ body {
 .navbar {
   padding: 0;
 }
+ */
 
-/*Main Index*/
+ /*Main Index
 
 video {
   display: block;
@@ -148,7 +149,7 @@ span {
   margin: 1rem;
   padding: 0.3rem;
 }
-
+*/
 
 /*Recomendaciones*/
 

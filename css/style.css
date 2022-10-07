@@ -72,38 +72,76 @@
   color: #fe3434;
 }
 
+.navbarpadd {
+  padding: 0;
+}
+
 .navbarcolor {
   background-color: #264653;
 }
-
-.navbar .navbar-nav .nav-link {
-  padding: 0.6em;
+.navbarcolor .navbarfontcolor {
+  color: #e9c46a;
+}
+.navbarcolor .nav-link {
   font-size: 1.2em;
   transition: all 0.5s;
 }
-.navbar .navbar-nav .nav-link:hover {
+.navbarcolor .nav-link:hover {
   background-color: #e9c46a;
   color: #fe3434;
 }
-
-.navbar-nav .nav-link.active {
+.navbarcolor .nav-link.active {
   color: #fe3434;
 }
 
-/*   
-no me acuerdo que hacia, creo que nada
+/* no me acuerdo que hacia, creo que nada. Dejar hasta estar seguro
 
 .navbar .navbar-brand {
     padding: 0 0.6em;
     font-size: 1.5em;
     font-weight: bold;
   } */
-.navbarfontcolor {
-  color: #e9c46a;
+/*Null para deshabilitar uno de que no necesite*/
+/* ejemplo
+.map {
+    @include displays (block,null ,center )
+} */
+/*Null para deshabilitar uno de que no necesite*/
+/* ejemplo
+.map {
+    @include displays (block,null ,center )
+} */
+/*Main Index*/
+video {
+  display: block;
+  margin: auto;
+  padding: 3rem;
+  width: 70%;
 }
 
-.navbar {
-  padding: 0;
+.searchbar {
+  padding: 4rem;
+}
+.searchbar .searchbar-items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.searchbar .searchbar-items .searchbar-p {
+  font-size: 2rem;
+  color: #264653;
+  margin-bottom: 0.6rem;
+}
+.searchbar .searchbar-items span {
+  color: #fe3434;
+}
+.searchbar .searchbar-items .input-index {
+  border-color: #264653;
+  width: auto;
+}
+.searchbar .searchbar-items .searchtype {
+  margin: 1rem;
+  padding: 0.3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
