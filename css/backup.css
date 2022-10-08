@@ -248,6 +248,10 @@ span {
   display: flex;
   align-items: center;
 }
+
+.users {
+  width:3rem;
+}
 /*Blog Articulos*/
 
 .blog_images {
@@ -281,9 +285,7 @@ figcaption {
   color: #264653ff;
 }
 
-.users {
-  width:3rem;
-}
+
 /*Aside con descuentos Blog*/
 
 .discounts {
@@ -334,7 +336,7 @@ textarea {
   width: 20%;
 }
 
-/* Footer*/
+/* Footer
 
 .logo-1 {
   width: 4rem;
@@ -367,6 +369,8 @@ footer {
   padding: 1rem;
   gap: 0.5rem;
 }
+*/
+
 
 @media only screen and (max-width:1200px) {
   .navbar {

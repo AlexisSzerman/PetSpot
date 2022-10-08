@@ -9,5 +9,5 @@ align-items: $align;
 
 /* ejemplo
 .map {
-    @include displays (block,null ,center )
+    @include displays (flex, null, center);
 } */

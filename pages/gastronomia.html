@@ -39,7 +39,7 @@
     <!--Navbar con Bootstrap-->
 
 
-    <nav class="navbar navbar-expand-lg navbarcolor">
+    <nav class="navbar navbar-expand-lg navbarcolor navbarpadd">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -140,13 +140,13 @@
         </div>
 
         <div class="d-flex flex-column flex-md-row flex-lg-row flex-lg-row align-items-center">
-          <label class="card-text searchtype" for=""> Pet Friendly adentro</label>
-          <input class="" type="checkbox">
-          <button type="button" class="btn1 searchtype mb-2">Buscar!</button>
-
+          <label class="checkbox-title searchtype" for=""> Pet Friendly adentro</label>
+          <input type="checkbox">
         </div>
-
+        <button type="button" class="btn1 searchtype mb-2">Buscar!</button>
+      
       </div>
+
     </section>
 
     <hr>
@@ -154,11 +154,11 @@
     <section>
 
       <!--Restaurant y descripcion-->
-     
+
       <div class="container-fluid container-sm container-md container-lg container-xl">
-        <h2 class="reco-h2">Recomendado</h2>
+        <h2 class="reco-h2-2">Recomendado</h2>
       </div>
-        
+
 
       <div class="container-fluid container-sm container-md container-lg container-xl">
         <div class="card mb-3 mx-md-5 mx-lg-5 mx-xl-5 mx-xl-5">
@@ -174,7 +174,13 @@
                 <i class="bi bi-star-fill star"></i>
                 <i class="bi bi-star-fill star"></i>
                 <i class="bi bi-star-fill star"></i>
-                <p class="card-text">Nápoles es un espacio colmado de antigüedades. Traspasar su portón es ingresar en una dimensión diferente. En la entrada misma, una suerte de almacén de época, con sus balanzas y cortadoras de fiambres, da la bienvenida. Más allá, grandes mostradores, hornos y vitrinas del siglo pasado. En un lateral, la barra de tragos fusiona un espíritu joven con estética antigua. Y los objetos, las grandes estrellas de la casa, emergiendo en cada rincón. Un buen trago, un plato tradicional de pastashuta y el arte estallando por todos lados. Plan irresistible para que nos acompañen nuestros amigos de cuatro patas.
+                <p class="card-text">Nápoles es un espacio colmado de antigüedades. Traspasar su portón es ingresar en
+                  una dimensión diferente. En la entrada misma, una suerte de almacén de época, con sus balanzas y
+                  cortadoras de fiambres, da la bienvenida. Más allá, grandes mostradores, hornos y vitrinas del siglo
+                  pasado. En un lateral, la barra de tragos fusiona un espíritu joven con estética antigua. Y los
+                  objetos, las grandes estrellas de la casa, emergiendo en cada rincón. Un buen trago, un plato
+                  tradicional de pastashuta y el arte estallando por todos lados. Plan irresistible para que nos
+                  acompañen nuestros amigos de cuatro patas.
                 </p>
 
               </div>
@@ -184,85 +190,89 @@
 
       </div>
 
-        <!--Seccion de mapa y comentarios-->
+      <!--Seccion de mapa y comentarios-->
 
-        <div class="map container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1160717490693!2d-58.37393058523265!3d-34.626506966210336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb32d2ba0b75%3A0x96c0cd37cfe3b575!2zTsOhcG9sZXM!5e0!3m2!1ses-419!2sar!4v1662135722277!5m2!1ses-419!2sar"
-            style="border:0;" allowfullscreen="" width="90%" height="auto"></iframe>
-        </div>
+      <div class="map container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1160717490693!2d-58.37393058523265!3d-34.626506966210336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb32d2ba0b75%3A0x96c0cd37cfe3b575!2zTsOhcG9sZXM!5e0!3m2!1ses-419!2sar!4v1662135722277!5m2!1ses-419!2sar"
+          style="border:0;" allowfullscreen="" width="90%" height="auto"></iframe>
+      </div>
 
 
-        <p class="comment-title">Últimos comentarios</p>
+      <p class="comment-title">Últimos comentarios</p>
 
-        <div class="comments-section">
-          <div class="comments">
+      <div class="comments-section">
+        <div class="comments">
 
-            <div class="comment">
-              <div class="identity">
-                <img class="users" src="../images/user6.png" alt="usuario6">
-                <p class="comments-name">Michi</p>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-              </div>
-
-              <p class="comment-p"> Muy espacioso y lleno de reliquias muy interesantes. Muy buen trato con las mascotas. La comida me gustó, pero un tanto cara.
-              </p>
+          <div class="comment">
+            <div class="identity">
+              <img class="users" src="../images/user6.png" alt="usuario6">
+              <p class="comments-name">Michi</p>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
             </div>
 
-            <div class="comment">
-              <div class="identity">
-                <img class="users" src="../images/user5.png" alt="usuario5">
-                <p class="comments-name">Ricky</p>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-half"></i>
-              </div>
+            <p class="comment-p"> Muy espacioso y lleno de reliquias muy interesantes. Muy buen trato con las mascotas.
+              La comida me gustó, pero un tanto cara.
+            </p>
+          </div>
 
-
-              <p class="comment-p">Recomendado, para humanos y mascotas! Muy interesantes todas los objetos que hay. Trataron muy bien a mi perrito.
-              </p>
-
-
+          <div class="comment">
+            <div class="identity">
+              <img class="users" src="../images/user5.png" alt="usuario5">
+              <p class="comments-name">Ricky</p>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-half"></i>
             </div>
-            <div class="comment">
-              <div class="identity">
-                <img class="users" src="../images/user7.png" alt="usuario7">
-                <p class="comments-name">Aragorn</p>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star star"></i>
-                <i class="bi bi-star star"></i>
-
-              </div>
 
 
-              <p class="comment-p"> Muy bueno que se pueda entrar con las mascotas, pero la comida deja mucho que desear. Bastante caro para lo que ofrece. Lo bueno es poder ver todas las antigüedades que hay.
-              </p>
+            <p class="comment-p">Recomendado, para humanos y mascotas! Muy interesantes todas los objetos que hay.
+              Trataron muy bien a mi perrito.
+            </p>
+
+
+          </div>
+          <div class="comment">
+            <div class="identity">
+              <img class="users" src="../images/user7.png" alt="usuario7">
+              <p class="comments-name">Aragorn</p>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star star"></i>
+              <i class="bi bi-star star"></i>
 
             </div>
 
-            <div class="comment">
-              <div class="identity">
-                <img class="users" src="../images/user8.png" alt="usuario8">
-                <p class="comments-name">Ragnar</p>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-fill star"></i>
-                <i class="bi bi-star-half"></i>
-              </div>
-              <p class="comment-p">Lo recomiendo! Muy bueno el lugar para hacer fotos con las mascotas. Muy rica la comida, pero la carta es bastante acotada.
-              </p>
+
+            <p class="comment-p"> Muy bueno que se pueda entrar con las mascotas, pero la comida deja mucho que desear.
+              Bastante caro para lo que ofrece. Lo bueno es poder ver todas las antigüedades que hay.
+            </p>
+
+          </div>
+
+          <div class="comment">
+            <div class="identity">
+              <img class="users" src="../images/user8.png" alt="usuario8">
+              <p class="comments-name">Ragnar</p>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-fill star"></i>
+              <i class="bi bi-star-half"></i>
             </div>
+            <p class="comment-p">Lo recomiendo! Muy bueno el lugar para hacer fotos con las mascotas. Muy rica la
+              comida, pero la carta es bastante acotada.
+            </p>
           </div>
         </div>
+      </div>
 
     </section>
 

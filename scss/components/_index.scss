@@ -1,79 +1,46 @@
 @import '../base/lists';
 @import '../base/mixin';
 
-video {
-    display: block;
-    margin: auto;
-    padding: 3rem;
-    width: 70%;
-}
+main {
 
-.searchbar {
-    padding: 4rem;
-
-    .searchbar-items {
-        @include displays (flex, null, center);
-        flex-direction: column;
-
-        .searchbar-p {
-            font-size: nth($font-size, 3);
-            color: nth($colors, 2);
-            margin-bottom: 0.6rem;
-        }
-
-        span {
-            color: nth($colors, 3);
-        }
-
-        .input-index {
-            border-color: nth($colors, 2);
-            width: auto;
-        }
-
-        .searchtype {
-            margin: 1rem;
-            padding: 0.3rem;
-        }
-
+    video {
+        display: block;
+        margin: auto;
+        padding: 3rem;
+        width: 70%;
     }
-
-}
-
-
-/*Recomendaciones Index*/
-
-.container {
-
-    .reco-h2 {
-        font-size: nth($font-size, 3);
-        color: nth($colors, 2);
-        font-weight: 500;
-        margin: 1rem 0 1rem 0;
-    }
-
-    .card {
-
-        border-color: nth($colors, 1);
-
-        .card-title {
-            color: nth($colors, 3);
-        }
-
-        .card-text {
-            font-style: italic;
-            color: nth($colors, 2);
-        }
-
-        .star {
-            color: nth($colors, 2);
-
-            &:hover {
-                color: nth($colors, 1);
+    
+    .searchbar {
+        padding: 4rem;
+    
+        .searchbar-items {
+            @include displays (flex, null, center);
+            flex-direction: column;
+    
+            .searchbar-p {
+                font-size: nth($font-size, 3);
+                color: nth($colors, 2);
+                margin-bottom: 0.6rem;
             }
+    
+            span {
+                color: nth($colors, 3);
+            }
+    
+            .input-index {
+                border-color: nth($colors, 2);
+                width: auto;
+            }
+    
+            .searchtype {
+                margin: 1rem;
+                padding: 0.3rem;
+            }
+    
         }
-
-
+    
     }
-
-
+    
+    
 }
+
