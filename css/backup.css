@@ -179,7 +179,7 @@ span {
   border-color: #e9c46aff;
 }*/
 
-/*Mains*/
+/*Mains
 
 
 #selection-p {
@@ -188,8 +188,9 @@ span {
   font-style: italic;
   
 }
+*/
 
-/* Mapas y comentarios*/
+/* Mapas y comentarios
 
 .map {
   display: flex;
@@ -252,7 +253,10 @@ span {
 .users {
   width:3rem;
 }
-/*Blog Articulos*/
+*/
+
+
+/*Blog Articulos
 
 .blog_images {
   width: 100%;
@@ -284,9 +288,10 @@ figcaption {
   font-size: 1rem;
   color: #264653ff;
 }
+*/
 
 
-/*Aside con descuentos Blog*/
+/*Aside con descuentos Blog
 
 .discounts {
 
@@ -304,7 +309,7 @@ figcaption {
 .discount_images {
   width: 30%;
 }
-
+*/
 
 /* Formulario de Contacto */
 

@@ -27,15 +27,11 @@
     color: nth($colors, 3);
   }
 
+  /*Al estar fuera de la navbar con clases de Bootstrap el boton contacto necesitaba esta para que figure como "active" cuando esté seleccionado*/
+
+  .navbarcolor-cont {
+    color: nth($colors, 3) !important;
+  }
+
+
 }
-
-
-
-
-/* no me acuerdo que hacia, creo que nada. Dejar hasta estar seguro
-
-.navbar .navbar-brand {
-    padding: 0 0.6em;
-    font-size: 1.5em;
-    font-weight: bold;
-  } */

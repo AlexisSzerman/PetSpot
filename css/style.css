@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Fuentes Google*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap");
 /*Iconos Bootstrap*/
@@ -57,11 +58,6 @@
   background-color: #fe3434;
 }
 
-/*Al estar fuera de la navbar necesitaba esta clase para que figure como "active" cuando fuera seleccionado*/
-.navbarcolor-cont {
-  color: #fe3434 !important;
-}
-
 /*Null para deshabilitar uno de que no necesite*/
 /* ejemplo
 .map {
@@ -112,6 +108,7 @@ footer .logo-1 {
 
 .navbarcolor {
   background-color: #264653;
+  /*Al estar fuera de la navbar con clases de Bootstrap el boton contacto necesitaba esta para que figure como "active" cuando esté seleccionado*/
 }
 .navbarcolor .navbarfontcolor {
   color: #e9c46a;
@@ -127,14 +124,10 @@ footer .logo-1 {
 .navbarcolor .nav-link.active {
   color: #fe3434;
 }
+.navbarcolor .navbarcolor-cont {
+  color: #fe3434 !important;
+}
 
-/* no me acuerdo que hacia, creo que nada. Dejar hasta estar seguro
-
-.navbar .navbar-brand {
-    padding: 0 0.6em;
-    font-size: 1.5em;
-    font-weight: bold;
-  } */
 /*Null para deshabilitar uno de que no necesite*/
 /* ejemplo
 .map {
@@ -272,6 +265,67 @@ main section .comment .comments {
 main section .comment .comments .identity {
   display: flex;
   align-items: center;
+}
+
+/*Null para deshabilitar uno de que no necesite*/
+/* ejemplo
+.map {
+    @include displays (flex, null, center);
+} */
+/*Blog Articulos*/
+.articles {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 1rem;
+  padding: 1.5rem;
+}
+.articles .blog_images {
+  width: 100%;
+}
+.articles figcaption {
+  font-size: 0.8rem;
+  color: #264653;
+  font-style: italic;
+}
+.articles .article-title {
+  font-size: 1rem;
+  color: #fe3434;
+  margin: 1rem 0 1rem 0;
+  justify-content: first baseline;
+}
+.articles .article-p {
+  font-size: 1rem;
+  color: #264653;
+}
+@media only screen and (max-width: 450px) {
+  .articles {
+    grid-template-columns: 1fr;
+  }
+}
+
+aside .discounts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  margin: 3rem;
+}
+@media only screen and (max-width: 450px) {
+  aside .discounts {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
+aside .discount {
+  display: flex;
+  align-items: center;
+}
+aside .discount .discount_images {
+  width: 10rem;
+}
+aside .discount .discount_p {
+  font-size: 1rem;
+  color: #264653;
+  margin-left: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
