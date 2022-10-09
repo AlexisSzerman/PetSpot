@@ -15,34 +15,57 @@
   font-weight: 500;
 }
 
-.header {
+header .header {
   background-color: #e9c46a;
   color: #264653;
 }
-.header .brand {
+header .header .brand {
   margin-top: 1.5rem;
   margin-left: -1.5rem;
 }
-.header .brand .header-h1 {
+header .header .brand .header-h1 {
   font-weight: bolder;
   font-size: 2rem;
   margin: 0;
 }
-.header .brand .header-h3 {
+@media only screen and (max-width: 767px) {
+  header .header .brand .header-h1 {
+    font-size: 3rem;
+  }
+}
+header .header .brand .header-h3 {
   font-weight: 400;
   font-size: 1.5rem;
   font-style: italic;
   margin: 0;
 }
-.header .socialicon {
+header .header .socialicon {
   color: #264653;
   font-size: 2.5rem;
 }
-.header .socialicon:hover {
+header .header .socialicon:hover {
   color: #fe3434;
 }
-.header .miperfil {
+header .header .miperfil {
   padding-left: 1rem;
+}
+@media only screen and (max-width: 767px) {
+  header .header .header-side {
+    display: none;
+  }
+}
+@media only screen and (min-width: 767px) {
+  header .header-side {
+    margin-right: 3.3rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header .header-mob {
+    text-align: center !important;
+  }
+  header .logo2 {
+    width: 5rem;
+  }
 }
 
 .btn1 {
@@ -56,6 +79,13 @@
   transition-property: all;
   transition-duration: 1s;
   background-color: #fe3434;
+}
+@media only screen and (max-width: 767px) {
+  .btn1 {
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
 }
 
 /*Null para deshabilitar uno de que no necesite*/
@@ -101,30 +131,50 @@ footer .socialicon:hover {
 footer .logo-1 {
   width: 4rem;
 }
+@media only screen and (max-width: 767px) {
+  footer .logo-1 .logo-1 {
+    width: 3rem;
+  }
+}
 
-.navbarpadd {
+@media only screen and (max-width: 767px) {
+  footer {
+    padding: 1rem 0;
+  }
+}
+header .navbarpadd {
   padding: 0;
 }
-
-.navbarcolor {
+header .navbarcolor {
   background-color: #264653;
-  /*Al estar fuera de la navbar con clases de Bootstrap el boton contacto necesitaba esta para que figure como "active" cuando esté seleccionado*/
+  /*Al estar fuera del navbar con clases de Bootstrap el boton contacto necesitaba esta para que figure como "active" cuando esté seleccionado*/
 }
-.navbarcolor .navbarfontcolor {
+header .navbarcolor .navbarfontcolor {
   color: #e9c46a;
 }
-.navbarcolor .nav-link {
+header .navbarcolor .nav-link {
   font-size: 1.2em;
   transition: all 0.5s;
 }
-.navbarcolor .nav-link:hover {
+header .navbarcolor .nav-link:hover {
   background-color: #e9c46a;
   color: #fe3434;
 }
-.navbarcolor .nav-link.active {
+header .navbarcolor .nav-link.active {
   color: #fe3434;
 }
-.navbarcolor .navbarcolor-cont {
+@media only screen and (max-width: 1200px) {
+  header .navbar {
+    padding: 0.3rem;
+  }
+}
+@media only screen and (min-width: 767px) {
+  header .nav-mobile {
+    display: none;
+  }
+}
+
+.navbarcolor-cont {
   color: #fe3434 !important;
 }
 
@@ -144,6 +194,12 @@ main video {
   padding: 3rem;
   width: 70%;
 }
+@media only screen and (max-width: 767px) {
+  main video {
+    padding: 1rem;
+    width: 100%;
+  }
+}
 main .searchbar {
   padding: 4rem;
 }
@@ -157,6 +213,11 @@ main .searchbar .searchbar-items .searchbar-p {
   color: #264653;
   margin-bottom: 0.6rem;
 }
+@media only screen and (max-width: 767px) {
+  main .searchbar .searchbar-items .searchbar-p {
+    text-align: center;
+  }
+}
 main .searchbar .searchbar-items span {
   color: #fe3434;
 }
@@ -169,6 +230,11 @@ main .searchbar .searchbar-items .searchtype {
   padding: 0.3rem;
 }
 
+@media only screen and (max-width: 767px) {
+  .col-md-3 {
+    margin-bottom: 1rem;
+  }
+}
 /*Null para deshabilitar uno de que no necesite*/
 /* ejemplo
 .map {
@@ -186,11 +252,21 @@ main section .reco-h2-2 {
   font-weight: 500;
   margin: 1rem 0 1rem 2.5rem;
 }
+@media only screen and (max-width: 767px) {
+  main section .reco-h2-2 {
+    margin: 0 0 1rem 0;
+  }
+}
 main section #selection-p {
   font-size: 1.5rem;
   color: #fe3434;
   font-style: italic;
   margin-left: 1rem;
+}
+@media only screen and (max-width: 767px) {
+  main section #selection-p {
+    margin-right: 0.5rem;
+  }
 }
 main section .checkbox-title {
   font-style: italic;
@@ -208,6 +284,11 @@ main section .card .card-text {
 }
 main section input {
   margin-left: 1rem;
+}
+@media only screen and (max-width: 767px) {
+  main section input {
+    margin: 0 0 1rem 0;
+  }
 }
 main section .map {
   display: flex;
@@ -287,8 +368,13 @@ main section .comment .comments .identity {
   color: #264653;
   font-style: italic;
 }
+@media only screen and (max-width: 767px) {
+  .articles figcaption {
+    font-size: 1rem;
+  }
+}
 .articles .article-title {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #fe3434;
   margin: 1rem 0 1rem 0;
   justify-content: first baseline;
@@ -326,6 +412,34 @@ aside .discount .discount_p {
   font-size: 1rem;
   color: #264653;
   margin-left: 0.5rem;
+}
+
+/*Null para deshabilitar uno de que no necesite*/
+/* ejemplo
+.map {
+    @include displays (flex, null, center);
+} */
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.form .form_port {
+  width: 20%;
+}
+@media only screen and (max-width: 767px) {
+  .form .form_port {
+    width: 50%;
+  }
+}
+.form .form-p {
+  padding: 0.6rem 0 0.6rem 0;
+  font-size: 1.5rem;
+  color: #264653;
+}
+.form textarea {
+  margin: 0.6rem 0 0.6rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */

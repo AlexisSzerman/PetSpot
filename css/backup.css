@@ -313,7 +313,7 @@ figcaption {
 
 /* Formulario de Contacto */
 
-.form {
+/* .form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -332,15 +332,15 @@ figcaption {
 
 textarea {
   margin: 10px 0 10px 0;
-}
+} */
 
 
 /*Main - Creacion de Perfil*/
 
-.form_port {
+/* .form_port {
   width: 20%;
 }
-
+ */
 /* Footer
 
 .logo-1 {
@@ -377,21 +377,22 @@ footer {
 */
 
 
-@media only screen and (max-width:1200px) {
+/* @media only screen and (max-width:1200px) {
   .navbar {
     padding: 0.3rem;
   }
 }
+ */
 
 @media only screen and (min-width:767px) {
-  .nav-mobile {
+  /* .nav-mobile {
     display: none;
   }
 
   .header-side {
     margin-right: 3.3rem;
   }
-
+ */
   video {
     padding: 2rem;
     width: 85%;
@@ -406,7 +407,7 @@ footer {
 
 @media only screen and (max-width:767px) {
 
-  .header-mob {
+  /* .header-mob {
     text-align: center !important;
   }
 
@@ -428,9 +429,9 @@ footer {
 
   .socialicon {
     font-size: 2.5rem;
-  }
+  } */
 
-  .logo-1 {
+  /* .logo-1 {
     width: 3rem;
   }
 
@@ -441,18 +442,18 @@ footer {
   video {
     padding: 1rem;
     width: 100%;
-  }
+  } */
 
-  .searchbar-p {
+ /*  .searchbar-p {
     font-size: 2.5rem;
     color: #264653ff;
     margin-bottom: 1rem;
     text-align: center;
-  }
+  } */
 
-  #selection-p,
+  /* #selection-p,
   .reco-h2{
     margin-left: 2rem;
-  }
+  } */
 
 }

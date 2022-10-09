@@ -1,37 +1,55 @@
 @import '../base/lists';
 
 
+header {
 
-.navbarpadd {
-  padding: 0;
-}
+  .navbarpadd {
+    padding: 0;
 
-.navbarcolor {
-  background-color: nth($colors, 2);
-
-  .navbarfontcolor {
-    color: nth($colors, 1);
   }
 
-  .nav-link {
-    font-size: 1.2em;
-    transition: all 0.5s;
+  .navbarcolor {
+    background-color: nth($colors, 2);
 
-    &:hover {
-      background-color: nth($colors, 1);
+    .navbarfontcolor {
+      color: nth($colors, 1);
+    }
+
+    .nav-link {
+      font-size: 1.2em;
+      transition: all 0.5s;
+
+      &:hover {
+        background-color: nth($colors, 1);
+        color: nth($colors, 3);
+      }
+    }
+
+    .nav-link.active {
       color: nth($colors, 3);
+    }
+
+    /*Al estar fuera del navbar con clases de Bootstrap el boton contacto necesitaba esta para que figure como "active" cuando esté seleccionado*/
+
+   
+  }
+
+  @media only screen and (max-width:1200px) {
+    .navbar {
+      padding: 0.3rem;
+    }
+
+  }
+
+  @media only screen and (min-width:767px) {
+    .nav-mobile {
+      display: none;
     }
   }
 
-  .nav-link.active {
-    color: nth($colors, 3);
-  }
-
-  /*Al estar fuera de la navbar con clases de Bootstrap el boton contacto necesitaba esta para que figure como "active" cuando esté seleccionado*/
-
-  .navbarcolor-cont {
-    color: nth($colors, 3) !important;
-  }
-
-
+  
 }
+
+ .navbarcolor-cont {
+      color: nth($colors, 3) !important;
+    }

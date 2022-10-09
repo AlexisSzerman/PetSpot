@@ -18,10 +18,15 @@
         font-size: 0.8rem;
         color: nth($colors, 2);
         font-style: italic;
+       
+        @media only screen and (max-width:767px) {
+            font-size: nth($font-size, 1);
+         }
+   
     }
 
     .article-title {
-        font-size: nth($font-size, 1);
+        font-size: nth($font-size, 2);
         color: nth($colors, 3);
         margin: 1rem 0 1rem 0;
         justify-content: first baseline;

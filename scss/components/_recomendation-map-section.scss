@@ -18,19 +18,32 @@ main {
       color: nth($colors, 2);
       font-weight: 500;
       margin: 1rem 0 1rem 2.5rem;
+
+      @media only screen and (max-width:767px) {
+
+        margin: 0 0 1rem 0;
+      }
+
     }
 
     #selection-p {
-      font-size:nth($font-size, 2);
+      font-size: nth($font-size, 2);
       color: nth($colors, 3);
       font-style: italic;
       margin-left: 1rem;
 
+      @media only screen and (max-width:767px) {
+       margin-right: 0.5rem;
     }
-    .checkbox-title{
+
+
+    }
+
+    .checkbox-title {
       font-style: italic;
       color: nth($colors, 2);
     }
+
     .card {
 
       border-color: nth($colors, 1);
@@ -39,7 +52,7 @@ main {
         color: nth($colors, 3);
       }
 
-      .card-text{
+      .card-text {
         font-style: italic;
         color: nth($colors, 2);
       }
@@ -48,6 +61,12 @@ main {
 
     input {
       margin-left: 1rem;
+
+      @media only screen and (max-width:767px) {
+
+        margin: 0 0 1rem 0;
+      }
+
     }
 
   }
@@ -56,7 +75,7 @@ main {
 
 
     .map {
-      @include displays (flex ,center , null ) 
+      @include displays (flex, center, null)
     }
 
     .comment-title {
@@ -68,7 +87,7 @@ main {
     }
 
     .comments-section {
-      @include displays (flex, space-between ,null);
+      @include displays (flex, space-between, null);
       padding: 1.5rem;
       background-color: rgb(255, 255, 255, 0.4);
       border: 0.1rem solid nth($colors, 2);
@@ -76,6 +95,7 @@ main {
       margin: 1rem;
 
     }
+
     .users {
       width: 3rem;
     }
@@ -94,7 +114,7 @@ main {
       font-weight: bold;
       color: nth($colors, 3);
       margin: 0 0.5rem 0 0.5rem;
-    
+
     }
 
     .comment {
@@ -107,7 +127,7 @@ main {
 
       .comment-p {
         margin: 0;
-        color:nth($colors, 2);
+        color: nth($colors, 2);
       }
 
       .comments {
@@ -117,11 +137,9 @@ main {
 
         .identity {
 
-          @include displays (flex, null, center);         
+          @include displays (flex, null, center);
 
         }
-
-        
 
 
       }
@@ -134,7 +152,3 @@ main {
 
 
 }
-
-
-
-

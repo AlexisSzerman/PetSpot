@@ -5,9 +5,9 @@
 footer {
     padding: 1rem;
     background-color: nth($colors, 1);
-    @include displays (flex, space-between ,center );
-    
-      .footer-links {
+    @include displays (flex, space-between, center);
+
+    .footer-links {
         a {
             color: nth($colors, 2);
 
@@ -45,6 +45,21 @@ footer {
 
     .logo-1 {
         width: 4rem;
+
+        @media only screen and (max-width:767px) {
+
+
+            .logo-1 {
+                width: 3rem;
+            }
+        }
     }
 
+}
+
+@media only screen and (max-width:767px) {
+
+    footer {
+        padding: 1rem 0;
+    }
 }
