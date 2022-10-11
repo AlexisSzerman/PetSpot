@@ -25,13 +25,12 @@ header {
       }
     }
 
+    /*Al estar fuera del navbar con clases de Bootstrap el boton contacto necesitaba esta para que figure como "active" cuando esté seleccionado*/
     .nav-link.active {
       color: nth($colors, 3);
     }
 
-    /*Al estar fuera del navbar con clases de Bootstrap el boton contacto necesitaba esta para que figure como "active" cuando esté seleccionado*/
 
-   
   }
 
   @media only screen and (max-width:1200px) {
@@ -47,9 +46,6 @@ header {
     }
   }
 
-  
+
 }
 
- .navbarcolor-cont {
-      color: nth($colors, 3) !important;
-    }

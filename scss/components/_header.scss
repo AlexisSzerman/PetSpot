@@ -53,6 +53,10 @@ header {
             }
         }
 
+        .navbarcolor-cont {
+            color: nth($colors, 3) !important;
+          }
+      
     }
 
     @media only screen and (min-width:767px) {

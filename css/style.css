@@ -54,6 +54,9 @@ header .header .miperfil {
     display: none;
   }
 }
+header .header .navbarcolor-cont {
+  color: #fe3434 !important;
+}
 @media only screen and (min-width: 767px) {
   header .header-side {
     margin-right: 3.3rem;
@@ -88,17 +91,17 @@ header .header .miperfil {
   }
 }
 
-/*Null para deshabilitar uno de que no necesite*/
-/* ejemplo
-.map {
-    @include displays (flex, null, center);
-} */
 footer {
   padding: 1rem;
   background-color: #e9c46a;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  footer {
+    padding: 1rem 0;
+  }
 }
 footer .footer-links a {
   color: #264653;
@@ -137,11 +140,6 @@ footer .logo-1 {
   }
 }
 
-@media only screen and (max-width: 767px) {
-  footer {
-    padding: 1rem 0;
-  }
-}
 header .navbarpadd {
   padding: 0;
 }
@@ -174,20 +172,6 @@ header .navbarcolor .nav-link.active {
   }
 }
 
-.navbarcolor-cont {
-  color: #fe3434 !important;
-}
-
-/*Null para deshabilitar uno de que no necesite*/
-/* ejemplo
-.map {
-    @include displays (flex, null, center);
-} */
-/*Null para deshabilitar uno de que no necesite*/
-/* ejemplo
-.map {
-    @include displays (flex, null, center);
-} */
 main video {
   display: block;
   margin: auto;
@@ -235,11 +219,6 @@ main .searchbar .searchbar-items .searchtype {
     margin-bottom: 1rem;
   }
 }
-/*Null para deshabilitar uno de que no necesite*/
-/* ejemplo
-.map {
-    @include displays (flex, null, center);
-} */
 main section .reco-h2 {
   font-size: 2rem;
   color: #264653;
@@ -348,12 +327,6 @@ main section .comment .comments .identity {
   align-items: center;
 }
 
-/*Null para deshabilitar uno de que no necesite*/
-/* ejemplo
-.map {
-    @include displays (flex, null, center);
-} */
-/*Blog Articulos*/
 .articles {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -414,11 +387,6 @@ aside .discount .discount_p {
   margin-left: 0.5rem;
 }
 
-/*Null para deshabilitar uno de que no necesite*/
-/* ejemplo
-.map {
-    @include displays (flex, null, center);
-} */
 .form {
   display: flex;
   align-items: center;

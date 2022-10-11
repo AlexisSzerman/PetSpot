@@ -4,10 +4,3 @@ display:$display;
 justify-content: $justify;
 align-items: $align;
 }
-
-/*Null para deshabilitar uno de que no necesite*/
-
-/* ejemplo
-.map {
-    @include displays (flex, null, center);
-} */
