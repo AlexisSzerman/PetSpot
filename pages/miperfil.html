@@ -5,9 +5,14 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="En esta sección de nuestra Guía Pet Friendly podrás crear tu usuario y así poder dejar comentarios y calificar cada lugar que visites.">
+  <meta name="keywords" content="Guía, Pet Friendly, mascotas, perro, gato, animales">
+  <meta property="og:type" content="Web site">
+  <meta property="og:title" content="Pet Spot - Guía Pet Friendly -  Mi Perfil 👤🐶🐱">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <title>PetSpot - Mi Perfil</title>
+  <title>PetSpot - Mi Perfil 👤🐶🐱</title>
   <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="../css/style.css" />
 
@@ -22,7 +27,7 @@
     <div class="text-start header p-3 header-mob">
       <div class="row">
         <div class="col-md-auto col-lg-auto"><a href="../index.html"><img class="logo2" src="../images/logo2.png"
-              alt="Logo" /></a></div>
+              alt="Logo principal" /></a></div>
         <div class="col-md-auto col-lg-auto brand ms-1">
           <h1 class="header-h1">Pet Spot</h1>
           <h3 class="header-h3">Guía Pet Friendly</h3>
@@ -39,7 +44,7 @@
     <!--Navbar con Bootstrap-->
 
 
-    <nav class="navbar navbar-expand-lg navbarcolor">
+    <nav class="navbar navbar-expand-lg navbarcolor navbarpadd">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,31 +87,32 @@
   <main>
 
 
+    <section>
 
-    <h2 class="reco-h2">Creá tu usuario</h2>
-    <h3 id="selection-p">Contanos un poco sobre vos</h3>
-
-
-    <div class="form">
-
-      <p class="form_p">Foto de perfil</p>
-      <img class="form_port" src="../images/Portrait_Placeholder.png" alt="foto de perfil">
-      <input type="file">
-      <p class="form_p">Usuario</p>
-      <input required="" type="email">
-      <p class="form_p">Contraseña</p>
-      <input required="" type="password">
-      <p class="form_p"> Raza </p>
-      <input required="" type="">
-      <p class="form_p">Snack favorito</p>
-      <input type="">
-
-      <textarea cols="40" rows="10"> Escribinos</textarea>
-      <button>Guardar</button>
-
-    </div>
+      <h2 class="reco-h2">Creá tu usuario</h2>
+      <h3 id="selection-p">Contanos un poco sobre vos</h3>
 
 
+      <div class="form">
+
+        <p class="form-p">Foto de perfil</p>
+        <img class="form_port" src="../images/Portrait_Placeholder.png" alt="foto de perfil">
+        <input type="file">
+        <p class="form-p">Usuario</p>
+        <input required="" type="email">
+        <p class="form-p">Contraseña</p>
+        <input required="" type="password">
+        <p class="form-p"> Raza </p>
+        <input required="" type="">
+        <p class="form-p">Snack favorito</p>
+        <input type="">
+
+        <textarea cols="40" rows="10"> Describite!</textarea>
+        <button type="button" class="btn1 searchtype mb-2">Crear</button>
+
+      </div>
+
+    </section>
 
 
 
@@ -116,7 +122,7 @@
 
   <footer>
 
-    <div>
+    <nav>
       <ul class="footer-links">
         <li><a href="../index.html">Inicio</a></li>
         <li><a href="../pages/alojamientos.html">Alojamientos</a></li>
@@ -126,9 +132,9 @@
         <li><a href="../pages/contacto.html">Contacto</a></li>
         <li><a href="../pages/miperfil.html">Mi Perfil</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <img src="../images/logo1.png" alt="logo 1" class="logo-1">
+    <img src="../images/logo1.png" alt="logo alternativo" class="logo-1">
 
     <!--Enlaces a Redes Sociales-->
 

@@ -1,0 +1,36 @@
+@import '../base/lists';
+@import '../base/mixin';
+
+
+
+
+.form {
+
+    @include displays (flex, null, center);
+
+    flex-direction: column;
+    padding: 2rem;
+
+    .form_port {
+        width: 20%;
+
+        @media only screen and (max-width:767px) {
+            width: 50%
+        }
+
+    }
+
+
+    .form-p {
+        padding: 0.6rem 0 0.6rem 0;
+        font-size: nth($font-size, 2);
+        color: nth($colors, 2);
+    }
+
+
+    textarea {
+        margin: 0.6rem 0 0.6rem 0;
+    }
+
+
+}

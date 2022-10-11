@@ -1,0 +1,154 @@
+@import '../base/lists';
+@import '../base/mixin';
+
+
+main {
+
+  section {
+
+    .reco-h2 {
+      font-size: nth($font-size, 3);
+      color: nth($colors, 2);
+      font-weight: 500;
+      margin: 2rem 0 1rem 1rem;
+    }
+
+    .reco-h2-2 {
+      font-size: nth($font-size, 3);
+      color: nth($colors, 2);
+      font-weight: 500;
+      margin: 1rem 0 1rem 2.5rem;
+
+      @media only screen and (max-width:767px) {
+
+        margin: 0 0 1rem 0;
+      }
+
+    }
+
+    #selection-p {
+      font-size: nth($font-size, 2);
+      color: nth($colors, 3);
+      font-style: italic;
+      margin-left: 1rem;
+
+      @media only screen and (max-width:767px) {
+       margin-right: 0.5rem;
+    }
+
+
+    }
+
+    .checkbox-title {
+      font-style: italic;
+      color: nth($colors, 2);
+    }
+
+    .card {
+
+      border-color: nth($colors, 1);
+
+      .card-title {
+        color: nth($colors, 3);
+      }
+
+      .card-text {
+        font-style: italic;
+        color: nth($colors, 2);
+      }
+
+    }
+
+    input {
+      margin-left: 1rem;
+
+      @media only screen and (max-width:767px) {
+
+        margin: 0 0 1rem 0;
+      }
+
+    }
+
+  }
+
+  section {
+
+
+    .map {
+      @include displays (flex, center, null)
+    }
+
+    .comment-title {
+      font-size: nth($font-size, 1);
+      font-weight: bold;
+      color: nth($colors, 2);
+      padding: 1.5rem 1.5rem 0 1.5rem;
+      margin: 0;
+    }
+
+    .comments-section {
+      @include displays (flex, space-between, null);
+      padding: 1.5rem;
+      background-color: rgb(255, 255, 255, 0.4);
+      border: 0.1rem solid nth($colors, 2);
+      border-radius: 0.5rem;
+      margin: 1rem;
+
+    }
+
+    .users {
+      width: 3rem;
+    }
+
+    .star {
+      color: nth($colors, 2);
+
+      &:hover {
+        color: nth($colors, 1);
+      }
+    }
+
+    .comments-name {
+      display: inline;
+      font-size: 1rem;
+      font-weight: bold;
+      color: nth($colors, 3);
+      margin: 0 0.5rem 0 0.5rem;
+
+    }
+
+    .comment {
+      border: 0.1rem solid nth($colors, 2);
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+      margin: 0.5rem 0 0.5rem 0;
+      background-color: rgb(255, 255, 255, 0.6);
+      height: auto;
+
+      .comment-p {
+        margin: 0;
+        color: nth($colors, 2);
+      }
+
+      .comments {
+        font-size: nth($font-size, 1);
+        color: nth($colors, 2);
+        text-align: justify;
+
+        .identity {
+
+          @include displays (flex, null, center);
+
+        }
+
+
+      }
+
+
+    }
+
+
+  }
+
+
+}

@@ -1,0 +1,80 @@
+@import '../base/lists';
+
+
+
+header {
+
+    .header {
+        background-color: nth($colors, 1);
+        color: nth($colors, 2);
+
+        .brand {
+            margin-top: 1.5rem;
+            margin-left: -1.5rem;
+
+            .header-h1 {
+                font-weight: bolder;
+                font-size: nth($font-size, 3);
+                margin: 0;
+            }
+
+            @media only screen and (max-width:767px) {
+
+                .header-h1 {
+                    font-size: nth($font-size, 5);
+                }
+            }
+
+            .header-h3 {
+                font-weight: 400;
+                font-size: nth($font-size, 2);
+                font-style: italic;
+                margin: 0;
+
+            }
+        }
+
+        .socialicon {
+            color: nth($colors, 2);
+            font-size: nth($font-size, 4);
+
+            &:hover {
+                color: nth($colors, 3);
+            }
+        }
+
+        .miperfil {
+            padding-left: 1rem;
+        }
+
+        @media only screen and (max-width:767px) {
+            .header-side {
+                display: none;
+            }
+        }
+
+        .navbarcolor-cont {
+            color: nth($colors, 3) !important;
+          }
+      
+    }
+
+    @media only screen and (min-width:767px) {
+        .header-side {
+            margin-right: 3.3rem;
+        }
+    }
+
+    @media only screen and (max-width:767px) {
+
+        .header-mob {
+            text-align: center !important;
+        }
+
+        .logo2 {
+            width: 5rem;
+        }
+
+    }
+
+}
