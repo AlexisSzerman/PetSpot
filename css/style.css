@@ -414,6 +414,7 @@ aside .discount .discount_p {
 }
 .form textarea {
   margin: 0.6rem 0 0.6rem 0;
+  resize: none;
 }
 
 /*# sourceMappingURL=style.css.map */
