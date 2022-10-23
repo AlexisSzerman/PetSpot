@@ -1,0 +1,23 @@
+{
+  "name": "petspot",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Alex Szerman</h1>\r <h3 align=\"center\">A graphic designer and future fullstack developer (hopefully) from Argentina</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexisSzerman/PetSpot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexisSzerman/PetSpot/issues"
+  },
+  "homepage": "https://github.com/AlexisSzerman/PetSpot#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
