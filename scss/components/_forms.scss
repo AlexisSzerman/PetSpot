@@ -20,6 +20,13 @@
 
     }
 
+    input {
+        outline: none;
+
+        &:focus {
+            border: solid nth($colors, 1);
+        }
+    }
 
     .form-p {
         padding: 0.6rem 0 0.6rem 0;
@@ -31,6 +38,11 @@
     textarea {
         margin: 0.6rem 0 0.6rem 0;
         resize: none;
+        outline: none;
+
+        &:focus {
+            border: solid nth($colors, 1);
+        }
     }
 
 

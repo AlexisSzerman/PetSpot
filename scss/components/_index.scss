@@ -36,6 +36,17 @@ main {
 
             span {
                 color: nth($colors, 3);
+
+                &:hover {
+                    ::before {
+                        content: '👨‍🦱👩‍🦰';
+                    }
+
+                    ::after {
+                        content: '🐶🐱';
+                    }
+                }
+
             }
 
             .input-index {

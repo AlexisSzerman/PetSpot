@@ -7,6 +7,10 @@
   font-family: "Roboto", sans-serif;
   list-style: none;
 }
+* ::selection {
+  background-color: #e9c46a;
+  color: #fe3434;
+}
 * body {
   background-image: url(../images/background.png);
 }
@@ -204,6 +208,12 @@ main .searchbar .searchbar-items .searchbar-p {
 }
 main .searchbar .searchbar-items span {
   color: #fe3434;
+}
+main .searchbar .searchbar-items span:hover ::before {
+  content: "👨‍🦱👩‍🦰";
+}
+main .searchbar .searchbar-items span:hover ::after {
+  content: "🐶🐱";
 }
 main .searchbar .searchbar-items .input-index {
   border-color: #264653;
@@ -408,6 +418,12 @@ aside .discount .discount_p {
     width: 50%;
   }
 }
+.form input {
+  outline: none;
+}
+.form input:focus {
+  border: solid #e9c46a;
+}
 .form .form-p {
   padding: 0.6rem 0 0.6rem 0;
   font-size: 1.5rem;
@@ -416,6 +432,10 @@ aside .discount .discount_p {
 .form textarea {
   margin: 0.6rem 0 0.6rem 0;
   resize: none;
+  outline: none;
+}
+.form textarea:focus {
+  border: solid #e9c46a;
 }
 
 /*# sourceMappingURL=style.css.map */
