@@ -20,8 +20,7 @@ header .header {
   color: #264653;
 }
 header .header .brand {
-  margin-top: 1.5rem;
-  margin-left: -1.5rem;
+  margin-top: 2rem;
 }
 header .header .brand .header-h1 {
   font-weight: bolder;
@@ -131,12 +130,13 @@ footer .socialicon {
 footer .socialicon:hover {
   color: #fe3434;
 }
-footer .logo-1 {
-  width: 4rem;
+footer .socialicon-footer {
+  color: #264653;
+  font-size: 2.5rem;
 }
 @media only screen and (max-width: 767px) {
-  footer .logo-1 .logo-1 {
-    width: 3rem;
+  footer .socialicon-footer {
+    font-size: 1.5rem;
   }
 }
 
@@ -207,7 +207,8 @@ main .searchbar .searchbar-items span {
 }
 main .searchbar .searchbar-items .input-index {
   border-color: #264653;
-  width: auto;
+  width: 20rem;
+  border-radius: 0.5rem;
 }
 main .searchbar .searchbar-items .searchtype {
   margin: 1rem;

@@ -8,9 +8,9 @@ footer {
     @include displays (flex, space-between, center);
 
     @media only screen and (max-width:767px) {
-           padding: 1rem 0;
-        }
-    
+        padding: 1rem 0;
+    }
+
     .footer-links {
         a {
             color: nth($colors, 2);
@@ -47,17 +47,12 @@ footer {
         }
     }
 
-    .logo-1 {
-        width: 4rem;
+    .socialicon-footer {
+        color: nth($colors, 2);
+        font-size: nth($font-size, 4);
 
         @media only screen and (max-width:767px) {
-
-
-            .logo-1 {
-                width: 3rem;
-            }
+            font-size: nth($font-size, 2);
         }
     }
-
 }
-
