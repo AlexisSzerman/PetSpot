@@ -7,6 +7,10 @@
   font-family: "Roboto", sans-serif;
   list-style: none;
 }
+* ::selection {
+  background-color: #e9c46a;
+  color: #fe3434;
+}
 * body {
   background-image: url(../images/background.png);
 }
@@ -20,8 +24,7 @@ header .header {
   color: #264653;
 }
 header .header .brand {
-  margin-top: 1.5rem;
-  margin-left: -1.5rem;
+  margin-top: 2rem;
 }
 header .header .brand .header-h1 {
   font-weight: bolder;
@@ -131,12 +134,13 @@ footer .socialicon {
 footer .socialicon:hover {
   color: #fe3434;
 }
-footer .logo-1 {
-  width: 4rem;
+footer .socialicon-footer {
+  color: #264653;
+  font-size: 2.5rem;
 }
 @media only screen and (max-width: 767px) {
-  footer .logo-1 .logo-1 {
-    width: 3rem;
+  footer .socialicon-footer {
+    font-size: 1.5rem;
   }
 }
 
@@ -205,9 +209,16 @@ main .searchbar .searchbar-items .searchbar-p {
 main .searchbar .searchbar-items span {
   color: #fe3434;
 }
+main .searchbar .searchbar-items span:hover ::before {
+  content: "👨‍🦱👩‍🦰";
+}
+main .searchbar .searchbar-items span:hover ::after {
+  content: "🐶🐱";
+}
 main .searchbar .searchbar-items .input-index {
   border-color: #264653;
-  width: auto;
+  width: 20rem;
+  border-radius: 0.5rem;
 }
 main .searchbar .searchbar-items .searchtype {
   margin: 1rem;
@@ -407,6 +418,12 @@ aside .discount .discount_p {
     width: 50%;
   }
 }
+.form input {
+  outline: none;
+}
+.form input:focus {
+  border: solid #e9c46a;
+}
 .form .form-p {
   padding: 0.6rem 0 0.6rem 0;
   font-size: 1.5rem;
@@ -415,6 +432,10 @@ aside .discount .discount_p {
 .form textarea {
   margin: 0.6rem 0 0.6rem 0;
   resize: none;
+  outline: none;
+}
+.form textarea:focus {
+  border: solid #e9c46a;
 }
 
 /*# sourceMappingURL=style.css.map */

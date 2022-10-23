@@ -36,11 +36,23 @@ main {
 
             span {
                 color: nth($colors, 3);
+
+                &:hover {
+                    ::before {
+                        content: '👨‍🦱👩‍🦰';
+                    }
+
+                    ::after {
+                        content: '🐶🐱';
+                    }
+                }
+
             }
 
             .input-index {
                 border-color: nth($colors, 2);
-                width: auto;
+                width: 20rem;
+                border-radius: 0.5rem;
             }
 
             .searchtype {
